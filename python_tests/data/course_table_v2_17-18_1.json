@@ -1,0 +1,188 @@
+[
+    {
+        "name": "普通化学",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 3,
+                "end": 4,
+                "classroom": "二教407",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 4,
+                "start": 1,
+                "end": 2,
+                "classroom": "二教407",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "高等数学 (B) (一)",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 1,
+                "end": 2,
+                "classroom": "二教107",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 4,
+                "start": 3,
+                "end": 4,
+                "classroom": "二教107",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "化学实验室安全技术",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 7,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通化学实验",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 5,
+                "end": 9,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "计算概论（B）上机",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 5,
+                "end": 6,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "游泳",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 5,
+                "end": 6,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通化学习题课",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 7,
+                "end": 8,
+                "classroom": "理教410",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "今日化学",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 7,
+                "end": 8,
+                "classroom": "",
+                "week": "单周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "计算概论（B）",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 7,
+                "end": 9,
+                "classroom": "理教403",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "人类的性、生育与健康",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教108",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 15
+            }
+        ]
+    },
+    {
+        "name": "高等数学 (B) (一)习题课",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 10,
+                "end": 11,
+                "classroom": "二教402",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "思想道德修养与法律基础",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教202",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    }
+]

@@ -1,0 +1,387 @@
+[
+    {
+        "name": "数据结构与算法 (A)",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 3,
+                "end": 4,
+                "classroom": "理教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "无机化学",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教403",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 3,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教403",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "物理化学（二）",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教410",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 3,
+                "end": 4,
+                "classroom": "理教410",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "数字逻辑设计",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 1,
+                "end": 2,
+                "classroom": "三教205",
+                "week": "双周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 1,
+                "start": 3,
+                "end": 4,
+                "classroom": "三教205",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "物理化学实验",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 3,
+                "end": 9,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "集合论与图论",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 3,
+                "end": 4,
+                "classroom": "理教302",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 7,
+                "end": 8,
+                "classroom": "理教302",
+                "week": "单周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "中国流行音乐流变",
+        "classes": [
+            {
+                "weekday": 5,
+                "start": 5,
+                "end": 6,
+                "classroom": "二教107",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "高级英语口语",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 7,
+                "end": 8,
+                "classroom": "文史107",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "数理逻辑",
+        "classes": [
+            {
+                "weekday": 5,
+                "start": 10,
+                "end": 12,
+                "classroom": "二教203",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "机器学习及其在化学中的应用",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 10,
+                "end": 11,
+                "classroom": "二教304",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "毛泽东思想和中国特色社会主义理论体系概论",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 7,
+                "end": 9,
+                "classroom": "理教206",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通生物学实验",
+        "classes": [
+            {
+                "weekday": 6,
+                "start": 1,
+                "end": 8,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 2,
+                "end_week": 8
+            }
+        ]
+    },
+    {
+        "name": "游泳",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 5,
+                "end": 6,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "结构化学讨论班",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 10,
+                "end": 12,
+                "classroom": "理教210",
+                "week": "单周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "高等数学 (B) (二)",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 1,
+                "end": 2,
+                "classroom": "二教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 1,
+                "start": 5,
+                "end": 6,
+                "classroom": "二教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通物理 (I)",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 5,
+                "end": 6,
+                "classroom": "理教303",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 3,
+                "start": 7,
+                "end": 8,
+                "classroom": "理教303",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通物理习题课",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教102",
+                "week": "单周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "有机化学习题课",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教202",
+                "week": "双周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "马克思主义基本原理概论",
+        "classes": [
+            {
+                "weekday": 6,
+                "start": 10,
+                "end": 12,
+                "classroom": "二教405",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 4
+            }
+        ]
+    },
+    {
+        "name": "有机化学实验 (Ⅰ+Ⅱ)",
+        "classes": [
+            {
+                "weekday": 7,
+                "start": 3,
+                "end": 9,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 4
+            }
+        ]
+    },
+    {
+        "name": "中级有机化学实验",
+        "classes": [
+            {
+                "weekday": 7,
+                "start": 3,
+                "end": 9,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 5,
+                "end_week": 12
+            }
+        ]
+    },
+    {
+        "name": "程序设计思维",
+        "classes": [
+            {
+                "weekday": 7,
+                "start": 10,
+                "end": 12,
+                "classroom": "三教205",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "化学实验室安全技术",
+        "classes": [
+            {
+                "weekday": 7,
+                "start": 1,
+                "end": 2,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 7,
+                "end_week": 16
+            }
+        ]
+    }
+]

@@ -1,0 +1,1605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53334B4427EFDD329B384A25 /* Pods_PKUHelper_4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A04672AE6398A21DA63551 /* Pods_PKUHelper_4.framework */; };
+		E7297C0022F4DED0006AB124 /* PHCTCourseColumnsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297BFF22F4DED0006AB124 /* PHCTCourseColumnsScrollView.swift */; };
+		E7297C0E22F5050A006AB124 /* PHScoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C0D22F5050A006AB124 /* PHScoreDetailViewController.swift */; };
+		E7297C1022F53CFF006AB124 /* PHCTSideColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C0F22F53CFF006AB124 /* PHCTSideColumnView.swift */; };
+		E7297C1222F53D0E006AB124 /* PHCTCourseColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C1122F53D0E006AB124 /* PHCTCourseColumnView.swift */; };
+		E7297C1422F53D71006AB124 /* PHCTSideGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C1322F53D71006AB124 /* PHCTSideGridView.swift */; };
+		E7297C1622F53D9D006AB124 /* PHCTCourseGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C1522F53D9D006AB124 /* PHCTCourseGridView.swift */; };
+		E7297C1822F53DB6006AB124 /* PHCTWeekdayHeaderGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C1722F53DB6006AB124 /* PHCTWeekdayHeaderGridView.swift */; };
+		E7297C1A22F56257006AB124 /* PHCTClassCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C1922F56257006AB124 /* PHCTClassCellView.swift */; };
+		E7297C1C22F60FA7006AB124 /* PHCTCourseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C1B22F60FA7006AB124 /* PHCTCourseTableView.swift */; };
+		E7297C2022F6B37D006AB124 /* SwiftyUserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C1F22F6B37D006AB124 /* SwiftyUserDefaults+Extension.swift */; };
+		E7297C2222F6B48F006AB124 /* PHTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C2122F6B48F006AB124 /* PHTheme.swift */; };
+		E7297C2622F6E3E3006AB124 /* PHScoreTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C2522F6E3E3006AB124 /* PHScoreTableViewHeaderView.swift */; };
+		E7297C2822F6E401006AB124 /* PHScoreTableViewFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C2722F6E401006AB124 /* PHScoreTableViewFooterView.swift */; };
+		E7297C2C22F700C4006AB124 /* _PHSettingUserRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C2B22F700C4006AB124 /* _PHSettingUserRowTableViewCell.swift */; };
+		E7297C3022F70123006AB124 /* PHSettingDualRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C2F22F70123006AB124 /* PHSettingDualRowTableViewCell.swift */; };
+		E7297C3222F7014A006AB124 /* PHSettingSingleRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C3122F7014A006AB124 /* PHSettingSingleRowTableViewCell.swift */; };
+		E7297C3422F797A9006AB124 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C3322F797A9006AB124 /* UIStackView+Extension.swift */; };
+		E7297C3622F79BAD006AB124 /* PHHoleBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C3522F79BAD006AB124 /* PHHoleBaseTableViewCell.swift */; };
+		E7297C4622F7DD9F006AB124 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C4522F7DD9F006AB124 /* Bundle+Extension.swift */; };
+		E7297C4822F7E7A2006AB124 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7297C4722F7E7A2006AB124 /* UIImageView+Extension.swift */; };
+		E745686722F92FEF004139F0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E745686622F92FEF004139F0 /* Launch Screen.storyboard */; };
+		E74978E32322B3B600C33056 /* PHSettingBaseSubSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978E22322B3B600C33056 /* PHSettingBaseSubSettingViewController.swift */; };
+		E74978E82323922D00C33056 /* PHCTCalendarExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978E72323922D00C33056 /* PHCTCalendarExportViewController.swift */; };
+		E74978EA2323924E00C33056 /* PHCTCalendarManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978E92323924E00C33056 /* PHCTCalendarManageViewController.swift */; };
+		E74978EC2323937800C33056 /* PHCTCalendarBaseClassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978EB2323937800C33056 /* PHCTCalendarBaseClassListViewController.swift */; };
+		E74978EE2323972D00C33056 /* PHCTCalendarClassListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978ED2323972D00C33056 /* PHCTCalendarClassListTableViewCell.swift */; };
+		E74978F22323B4A400C33056 /* PHEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978F12323B4A400C33056 /* PHEventManager.swift */; };
+		E74978F5232CA8CC00C33056 /* EKEvent+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978F4232CA8CB00C33056 /* EKEvent+Extension.swift */; };
+		E74978F7232D172A00C33056 /* PHBackendAPI+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978F6232D172A00C33056 /* PHBackendAPI+Message.swift */; };
+		E74978FB232D259300C33056 /* PHV2MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978FA232D259300C33056 /* PHV2MessageList.swift */; };
+		E74978FD232D2F9F00C33056 /* PHMessageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978FC232D2F9F00C33056 /* PHMessageDetailView.swift */; };
+		E74978FF232E660E00C33056 /* PHV2MessageUnreadCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74978FE232E660E00C33056 /* PHV2MessageUnreadCount.swift */; };
+		E74C6E632340536F00A7B783 /* PHCourseTableDye.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E622340536F00A7B783 /* PHCourseTableDye.swift */; };
+		E74C6E65234080E700A7B783 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E64234080E700A7B783 /* Dictionary+Extension.swift */; };
+		E74C6E672340BE9000A7B783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74C6E662340BE9000A7B783 /* Assets.xcassets */; };
+		E74C6E6923422EB700A7B783 /* PHTestColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E6823422EB600A7B783 /* PHTestColorPickerViewController.swift */; };
+		E74C6E6B234233EA00A7B783 /* PHMultiColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E6A234233EA00A7B783 /* PHMultiColorPicker.swift */; };
+		E74C6E6D234234FE00A7B783 /* PHColorPickerColorCircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E6C234234FE00A7B783 /* PHColorPickerColorCircleCollectionViewCell.swift */; };
+		E74C6E6F2343369C00A7B783 /* PHColorPickerButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E6E2343369C00A7B783 /* PHColorPickerButtonCollectionViewCell.swift */; };
+		E74C6E7323433F1600A7B783 /* _PHColorPickerRGBColorEditorBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E7223433F1600A7B783 /* _PHColorPickerRGBColorEditorBarView.swift */; };
+		E74C6E772343863100A7B783 /* PHColorPickerBaseCircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E762343863100A7B783 /* PHColorPickerBaseCircleCollectionViewCell.swift */; };
+		E74C6E7B2344762F00A7B783 /* PHSingleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E7A2344762F00A7B783 /* PHSingleColorPicker.swift */; };
+		E74C6E7D2344766700A7B783 /* PHBaseColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E7C2344766700A7B783 /* PHBaseColorPicker.swift */; };
+		E74C6E7F2344FA9B00A7B783 /* PHColorPickerColorPoolCollectionViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6E7E2344FA9B00A7B783 /* PHColorPickerColorPoolCollectionViewHeaderView.swift */; };
+		E74C6EBC234689FD00A7B783 /* PHClickableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6EBB234689FD00A7B783 /* PHClickableTextView.swift */; };
+		E74C6EBF23468ADC00A7B783 /* PHScaledHeightImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C6EBE23468ADC00A7B783 /* PHScaledHeightImageView.swift */; };
+		E7554F4F230BAFF400B68D13 /* SwifterSwift-Shared-Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F4E230BAFF400B68D13 /* SwifterSwift-Shared-Color+Extension.swift */; };
+		E7554F51230BCABB00B68D13 /* PHCTCustomCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F50230BCABB00B68D13 /* PHCTCustomCoursesViewController.swift */; };
+		E7554F56230BCFE700B68D13 /* PHCTCustomCoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F55230BCFE700B68D13 /* PHCTCustomCoursesTableViewCell.swift */; };
+		E7554F58230BE95E00B68D13 /* PHCTCustomCoursesEditingBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F57230BE95E00B68D13 /* PHCTCustomCoursesEditingBaseViewController.swift */; };
+		E7554F5A230BF4FB00B68D13 /* PHCTCustomCoursesEditingClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F59230BF4FB00B68D13 /* PHCTCustomCoursesEditingClassTableViewCell.swift */; };
+		E7554F5C230BF75D00B68D13 /* PHCTCustomCoursesEditingEditClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F5B230BF75D00B68D13 /* PHCTCustomCoursesEditingEditClassTableViewCell.swift */; };
+		E7554F5E230C0D3C00B68D13 /* PHCTCustomCoursesEditingAddClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F5D230C0D3C00B68D13 /* PHCTCustomCoursesEditingAddClassTableViewCell.swift */; };
+		E7554F60230C137E00B68D13 /* PHCTCustomCoursesAddCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F5F230C137E00B68D13 /* PHCTCustomCoursesAddCourseViewController.swift */; };
+		E7554F64230C249A00B68D13 /* PHCTCustomCoursesEditingClassTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F63230C249A00B68D13 /* PHCTCustomCoursesEditingClassTableViewHeaderView.swift */; };
+		E7554F66230D535600B68D13 /* PHCTCustomCoursesEditCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F65230D535600B68D13 /* PHCTCustomCoursesEditCourseViewController.swift */; };
+		E7554F68230E314500B68D13 /* PHCTManageCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F67230E314500B68D13 /* PHCTManageCloudViewController.swift */; };
+		E7554F6A230E320D00B68D13 /* PHCTCourseListBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F69230E320D00B68D13 /* PHCTCourseListBaseTableViewCell.swift */; };
+		E7554F6C230E35BB00B68D13 /* _PHCTCourseListSubClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F6B230E35BB00B68D13 /* _PHCTCourseListSubClassesTableViewCell.swift */; };
+		E7554F6E230E364500B68D13 /* _PHCTCourseListSubClassesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F6D230E364500B68D13 /* _PHCTCourseListSubClassesTableView.swift */; };
+		E7554F70230E3E5A00B68D13 /* _PHCTCourseListSubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F6F230E3E5A00B68D13 /* _PHCTCourseListSubTableViewCell.swift */; };
+		E7554F72230E477500B68D13 /* PHCTManageCloudTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F71230E477500B68D13 /* PHCTManageCloudTableViewCell.swift */; };
+		E7554F74230E49EB00B68D13 /* PHBackendAPI+Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F73230E49EB00B68D13 /* PHBackendAPI+Cloud.swift */; };
+		E7554F77230E71C800B68D13 /* PHV2CloudCourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F76230E71C800B68D13 /* PHV2CloudCourseList.swift */; };
+		E7554F79230E72FD00B68D13 /* PHV2Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F78230E72FC00B68D13 /* PHV2Login.swift */; };
+		E7554F7B230E8EE600B68D13 /* PHV2CloudUploadCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F7A230E8EE600B68D13 /* PHV2CloudUploadCourse.swift */; };
+		E7554F7D230E94F900B68D13 /* PHBackendAPI+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F7C230E94F900B68D13 /* PHBackendAPI+Base.swift */; };
+		E7554F81230EBA7900B68D13 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F80230EBA7900B68D13 /* UIButton+Extension.swift */; };
+		E7554F8623113D1100B68D13 /* NSTextCheckingResult+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F8523113D1100B68D13 /* NSTextCheckingResult+Extension.swift */; };
+		E7554F8823124C0E00B68D13 /* PHHoleDetailTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554F8723124C0E00B68D13 /* PHHoleDetailTableViewHeaderView.swift */; };
+		E7560CC122ED3875002D2FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7560CC022ED3875002D2FF5 /* AppDelegate.swift */; };
+		E7773044230318F9005F21F2 /* PHUserDetailInfoRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7773043230318F9005F21F2 /* PHUserDetailInfoRowTableViewCell.swift */; };
+		E77730462303B6E6005F21F2 /* PHUserButtonRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77730452303B6E6005F21F2 /* PHUserButtonRowTableViewCell.swift */; };
+		E77730482303BB45005F21F2 /* PHBackendAPI+Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77730472303BB45005F21F2 /* PHBackendAPI+Person.swift */; };
+		E777304B2303C218005F21F2 /* PHV2PersonCourseTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777304A2303C218005F21F2 /* PHV2PersonCourseTable.swift */; };
+		E777304D2303E373005F21F2 /* PHCTWeekdayHeaderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777304C2303E373005F21F2 /* PHCTWeekdayHeaderRowView.swift */; };
+		E777304F2304157E005F21F2 /* PHV2PersonScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777304E2304157E005F21F2 /* PHV2PersonScore.swift */; };
+		E777305623046B3A005F21F2 /* PHUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777305523046B3A005F21F2 /* PHUtil.swift */; };
+		E777305C230551CD005F21F2 /* _PHRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777305B230551CD005F21F2 /* _PHRefreshHeader.swift */; };
+		E777305E2305652D005F21F2 /* PHRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777305D2305652D005F21F2 /* PHRefreshFooter.swift */; };
+		E77730602305717F005F21F2 /* PHBackendAPI+PKUHole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777305F2305717F005F21F2 /* PHBackendAPI+PKUHole.swift */; };
+		E77730632306C61D005F21F2 /* PHV2PKUHolePostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77730622306C61D005F21F2 /* PHV2PKUHolePostList.swift */; };
+		E77730652306C7F6005F21F2 /* PHV2PKUHolePostOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77730642306C7F6005F21F2 /* PHV2PKUHolePostOne.swift */; };
+		E77730672306C900005F21F2 /* PHTestPKUHoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77730662306C900005F21F2 /* PHTestPKUHoleViewController.swift */; };
+		E77730692306D8CF005F21F2 /* ObjectMapper+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77730682306D8CF005F21F2 /* ObjectMapper+Extension.swift */; };
+		E777306B2306E165005F21F2 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777306A2306E165005F21F2 /* Array+Extension.swift */; };
+		E777307023082EB3005F21F2 /* PHV2NullDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777306F23082EB3005F21F2 /* PHV2NullDetail.swift */; };
+		E777307223084031005F21F2 /* PHHoleTranslucentWritingBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777307123084031005F21F2 /* PHHoleTranslucentWritingBaseViewController.swift */; };
+		E7773074230845D2005F21F2 /* PHHoleWriteReportReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7773073230845D2005F21F2 /* PHHoleWriteReportReasonViewController.swift */; };
+		E77730782309A00D005F21F2 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77730772309A00D005F21F2 /* UINavigationController+Extension.swift */; };
+		E78A03E822F8CE66005B4636 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A03E722F8CE66005B4636 /* String+Extension.swift */; };
+		E78A03EC22F8FF71005B4636 /* _PHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A03EB22F8FF71005B4636 /* _PHTabBarController.swift */; };
+		E78A03EE22F90391005B4636 /* PHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A03ED22F90391005B4636 /* PHNavigationController.swift */; };
+		E78A03F022F9072F005B4636 /* PHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A03EF22F9072F005B4636 /* PHBaseViewController.swift */; };
+		E79B108922FCFAB300513AD5 /* PHMyPKUCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B108822FCFAB300513AD5 /* PHMyPKUCollectionViewCell.swift */; };
+		E79B109022FD814A00513AD5 /* PHAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B108F22FD814A00513AD5 /* PHAlert.swift */; };
+		E79B109222FD947A00513AD5 /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B109122FD947A00513AD5 /* CGSize+Extension.swift */; };
+		E79B109622FDA2EB00513AD5 /* _PHWebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B109522FDA2EB00513AD5 /* _PHWebBrowserViewController.swift */; };
+		E79B109822FDD7C000513AD5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B109722FDD7C000513AD5 /* UIViewController+Extension.swift */; };
+		E79B10BD22FE9AE700513AD5 /* PHBackendAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10BC22FE9AE700513AD5 /* PHBackendAPI.swift */; };
+		E79B10C422FE9E0E00513AD5 /* PHBackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10C322FE9E0E00513AD5 /* PHBackendError.swift */; };
+		E79B10CA22FEBA5200513AD5 /* PHBackendAPI+Alamofire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10C922FEBA5200513AD5 /* PHBackendAPI+Alamofire+Extension.swift */; };
+		E79B10D422FFBD7A00513AD5 /* PHSettingAboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10D322FFBD7A00513AD5 /* PHSettingAboutUsViewController.swift */; };
+		E79B10D622FFBE5F00513AD5 /* PHSettingCourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10D522FFBE5F00513AD5 /* PHSettingCourseTableViewController.swift */; };
+		E79B10D822FFBF0200513AD5 /* PHSettingScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10D722FFBF0200513AD5 /* PHSettingScoreViewController.swift */; };
+		E79B10DA22FFBF5C00513AD5 /* PHSettingPKUHoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10D922FFBF5C00513AD5 /* PHSettingPKUHoleViewController.swift */; };
+		E79B10DC22FFBFFE00513AD5 /* PHSettingMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10DB22FFBFFE00513AD5 /* PHSettingMessageViewController.swift */; };
+		E79B10DE2301047000513AD5 /* _PHUserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10DD2301047000513AD5 /* _PHUserLoginViewController.swift */; };
+		E79B10E023012EE000513AD5 /* PHBackendAPI+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10DF23012EE000513AD5 /* PHBackendAPI+Login.swift */; };
+		E79B10F723019F0100513AD5 /* PHV2ResponseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10F623019F0100513AD5 /* PHV2ResponseDetail.swift */; };
+		E79B10FB2301A1A600513AD5 /* PHV2BaseGetTimestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10FA2301A1A600513AD5 /* PHV2BaseGetTimestamp.swift */; };
+		E79B10FE2301B1F200513AD5 /* PHV2LoginGetMobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10FD2301B1F200513AD5 /* PHV2LoginGetMobile.swift */; };
+		E79B11002301B4B600513AD5 /* PHV2LoginGetCaptcha.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B10FF2301B4B600513AD5 /* PHV2LoginGetCaptcha.swift */; };
+		E79B11022301B4F400513AD5 /* PHV2LoginCaptcha.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B11012301B4F400513AD5 /* PHV2LoginCaptcha.swift */; };
+		E79B11042301BA1400513AD5 /* _PHUserLoginCaptchaPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B11032301BA1400513AD5 /* _PHUserLoginCaptchaPopupViewController.swift */; };
+		E79B1106230280C000513AD5 /* PHV2LoginSendValidcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B1105230280C000513AD5 /* PHV2LoginSendValidcode.swift */; };
+		E79B11082302917900513AD5 /* PHV2ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B11072302917900513AD5 /* PHV2ResponseStatus.swift */; };
+		E79B110A230296DD00513AD5 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B1109230296DD00513AD5 /* UITextField+Extension.swift */; };
+		E79B11102302F8E000513AD5 /* _PHUserDetailLogoutRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B110F2302F8E000513AD5 /* _PHUserDetailLogoutRowTableViewCell.swift */; };
+		E79B11122303004F00513AD5 /* PHUserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79B11112303004F00513AD5 /* PHUserDetailViewController.swift */; };
+		E7A081A622F136CD0032462E /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081A522F136CD0032462E /* Int+Extension.swift */; };
+		E7A081A822F1490B0032462E /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081A722F1490B0032462E /* UITextView+Extension.swift */; };
+		E7A081AA22F164CA0032462E /* UIEdgeInsets+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081A922F164CA0032462E /* UIEdgeInsets+Extension.swift */; };
+		E7A081AE22F18B470032462E /* PHScoreMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081AD22F18B470032462E /* PHScoreMainViewController.swift */; };
+		E7A081B022F18C2A0032462E /* PHScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081AF22F18C2A0032462E /* PHScoreTableViewCell.swift */; };
+		E7A081B222F18C370032462E /* PHScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081B122F18C370032462E /* PHScore.swift */; };
+		E7A081B422F18C6A0032462E /* PHCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081B322F18C6A0032462E /* PHCourse.swift */; };
+		E7A081BD22F1F5860032462E /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081BC22F1F5860032462E /* Collection+Extension.swift */; };
+		E7A081BF22F1F6B80032462E /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081BE22F1F6B80032462E /* UITableView+Extension.swift */; };
+		E7A081C322F2858A0032462E /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081C222F2858A0032462E /* Double+Extension.swift */; };
+		E7A081C522F287760032462E /* PHScoreDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081C422F287760032462E /* PHScoreDetailTableViewCell.swift */; };
+		E7A081C822F2B3910032462E /* PHScoreSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A081C722F2B3910032462E /* PHScoreSummaryTableViewCell.swift */; };
+		E7A19CA022F0378E00BEAD37 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19C9F22F0378E00BEAD37 /* Notification.Name+Extension.swift */; };
+		E7A19CA422F040AE00BEAD37 /* _PHSettingThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19CA322F040AE00BEAD37 /* _PHSettingThemeViewController.swift */; };
+		E7A19CA622F0414700BEAD37 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19CA522F0414700BEAD37 /* UIColor+Extension.swift */; };
+		E7A19CA822F04A4600BEAD37 /* PHThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19CA722F04A4600BEAD37 /* PHThemeManager.swift */; };
+		E7A19CAA22F056D700BEAD37 /* PHSettingThemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19CA922F056D700BEAD37 /* PHSettingThemeTableViewCell.swift */; };
+		E7A19CB922F0B0D000BEAD37 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19CB822F0B0D000BEAD37 /* UIView+Extension.swift */; };
+		E7A19CBB22F113CD00BEAD37 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19CBA22F113CD00BEAD37 /* UIImage+Extension.swift */; };
+		E7A19CC122F11B5000BEAD37 /* PHGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A19CC022F11B5000BEAD37 /* PHGlobal.swift */; };
+		E7ABC8C722FA6EA0006EB335 /* PHTestImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8C622FA6EA0006EB335 /* PHTestImagePickerViewController.swift */; };
+		E7ABC8CC22FA9EAF006EB335 /* PHTestPopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8CB22FA9EAF006EB335 /* PHTestPopMenuViewController.swift */; };
+		E7ABC8CE22FAB8BA006EB335 /* PHHoleAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8CD22FAB8BA006EB335 /* PHHoleAttentionViewController.swift */; };
+		E7ABC8D122FABAA3006EB335 /* PHHolePostListBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8D022FABAA3006EB335 /* PHHolePostListBaseViewController.swift */; };
+		E7ABC8D322FAC187006EB335 /* PHTestMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8D222FAC187006EB335 /* PHTestMainViewController.swift */; };
+		E7ABC8D522FACB05006EB335 /* PopMenu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8D422FACB05006EB335 /* PopMenu+Extension.swift */; };
+		E7ABC8D722FAF80B006EB335 /* PHHoleSearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8D622FAF80B006EB335 /* PHHoleSearchResultViewController.swift */; };
+		E7ABC8DA22FB1637006EB335 /* PHHoleWritePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8D922FB1637006EB335 /* PHHoleWritePostViewController.swift */; };
+		E7ABC8DC22FC07A3006EB335 /* PHHoleWriteCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ABC8DB22FC07A3006EB335 /* PHHoleWriteCommentViewController.swift */; };
+		E7C41C6C22ED471F00D51D84 /* PHSettingMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C6B22ED471F00D51D84 /* PHSettingMainViewController.swift */; };
+		E7C41C7222ED490B00D51D84 /* PHHoleMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C7122ED490B00D51D84 /* PHHoleMainViewController.swift */; };
+		E7C41C7422ED504B00D51D84 /* PHMessageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C7322ED504B00D51D84 /* PHMessageMainViewController.swift */; };
+		E7C41C7622ED510400D51D84 /* PHCTMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C7522ED510400D51D84 /* PHCTMainViewController.swift */; };
+		E7C41C7822ED512800D51D84 /* _PHMyPKUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C7722ED512800D51D84 /* _PHMyPKUMainViewController.swift */; };
+		E7C41C8622ED78B700D51D84 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C8522ED78B700D51D84 /* R.generated.swift */; };
+		E7C41C9322EDE5FC00D51D84 /* PHUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C9222EDE5FC00D51D84 /* PHUser.swift */; };
+		E7C41C9522EE08B000D51D84 /* PHMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C9422EE08B000D51D84 /* PHMessage.swift */; };
+		E7C41C9722EE095E00D51D84 /* PHMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C9622EE095E00D51D84 /* PHMessageTableViewCell.swift */; };
+		E7C41C9922EE0E0300D51D84 /* PHMessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41C9822EE0E0300D51D84 /* PHMessageDetailViewController.swift */; };
+		E7CC4E8623164F34007D15D9 /* PHMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC4E8523164F34007D15D9 /* PHMainViewController.swift */; };
+		E7CC4E8A23164FD3007D15D9 /* PHMainUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC4E8923164FD3007D15D9 /* PHMainUserView.swift */; };
+		E7CC4E8C2316556A007D15D9 /* PHMainStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC4E8B2316556A007D15D9 /* PHMainStatusView.swift */; };
+		E7CC4E8E231655DD007D15D9 /* PHMainStatusCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC4E8D231655DD007D15D9 /* PHMainStatusCellView.swift */; };
+		E7CC4E9223166595007D15D9 /* PHMainModuleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC4E9123166595007D15D9 /* PHMainModuleCollectionViewCell.swift */; };
+		E7CC4E962316A41F007D15D9 /* PHMainModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CC4E952316A41F007D15D9 /* PHMainModuleView.swift */; };
+		E7DE037F2346CF0C00E74605 /* PHIPGWErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE037E2346CF0C00E74605 /* PHIPGWErrorResponse.swift */; };
+		E7EA01CF2316CA2A0024CCE3 /* PHV2PersonUnreadEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01CE2316CA2A0024CCE3 /* PHV2PersonUnreadEmail.swift */; };
+		E7EA01D12316DB030024CCE3 /* PHV2PersonBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01D02316DB030024CCE3 /* PHV2PersonBalance.swift */; };
+		E7EA01D8231793E50024CCE3 /* PHUserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01D7231793E50024CCE3 /* PHUserLoginViewController.swift */; };
+		E7EA01DB231798FA0024CCE3 /* PHUserLoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01DA231798FA0024CCE3 /* PHUserLoginFormView.swift */; };
+		E7EA01DD2317D9850024CCE3 /* PHUserLoginCaptchaPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01DC2317D9850024CCE3 /* PHUserLoginCaptchaPopupViewController.swift */; };
+		E7EA01DF23180A130024CCE3 /* PHHoleWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01DE23180A130024CCE3 /* PHHoleWelcomeViewController.swift */; };
+		E7EA01E12318E5D70024CCE3 /* PHHoleHiddenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01E02318E5D70024CCE3 /* PHHoleHiddenTableViewCell.swift */; };
+		E7EA01E7231920A20024CCE3 /* PHSettingDeveloperOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01E6231920A20024CCE3 /* PHSettingDeveloperOptionsViewController.swift */; };
+		E7EA01E9231940330024CCE3 /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01E8231940330024CCE3 /* TimeInterval+Extension.swift */; };
+		E7EA01EB23194DE70024CCE3 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01EA23194DE70024CCE3 /* UIScrollView+Extension.swift */; };
+		E7EA01ED231A95430024CCE3 /* PHUserIAAAAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01EC231A95430024CCE3 /* PHUserIAAAAccountViewController.swift */; };
+		E7EA01EF231A9ACD0024CCE3 /* PHKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01EE231A9ACD0024CCE3 /* PHKeychain.swift */; };
+		E7EA01F1231AA70F0024CCE3 /* PHUserIAAAAcountRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01F0231AA70F0024CCE3 /* PHUserIAAAAcountRowTableViewCell.swift */; };
+		E7EA01F4231B71BD0024CCE3 /* PHIPGWAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01F3231B71BD0024CCE3 /* PHIPGWAPI.swift */; };
+		E7EA01F8231B722D0024CCE3 /* PHURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01F7231B722D0024CCE3 /* PHURL.swift */; };
+		E7EA01FA231B7C7D0024CCE3 /* Alamofire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01F9231B7C7D0024CCE3 /* Alamofire+Extension.swift */; };
+		E7EA01FC231B7CAD0024CCE3 /* PHAPIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA01FB231B7CAD0024CCE3 /* PHAPIUtil.swift */; };
+		E7EA0201231B7F530024CCE3 /* PHIPGWBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0200231B7F530024CCE3 /* PHIPGWBaseResponse.swift */; };
+		E7EA0205231B90CC0024CCE3 /* PHIPGWOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0204231B90CC0024CCE3 /* PHIPGWOpen.swift */; };
+		E7EA020D231B93AD0024CCE3 /* PHIPGWError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA020C231B93AD0024CCE3 /* PHIPGWError.swift */; };
+		E7EA020F231B94260024CCE3 /* PHIPGWAPI+Alamofire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA020E231B94260024CCE3 /* PHIPGWAPI+Alamofire+Extension.swift */; };
+		E7EA0211231B97B50024CCE3 /* PHIPGWAPI+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0210231B97B50024CCE3 /* PHIPGWAPI+Router.swift */; };
+		E7EA0213231B9DA10024CCE3 /* PHIPGWSuccResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0212231B9DA10024CCE3 /* PHIPGWSuccResponse.swift */; };
+		E7EA0216231BA23F0024CCE3 /* PHIPGWMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0215231BA23F0024CCE3 /* PHIPGWMainViewController.swift */; };
+		E7EA0219231BB3A70024CCE3 /* PHIPGWMainStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0218231BB3A70024CCE3 /* PHIPGWMainStatusView.swift */; };
+		E7EA021B231BB5EA0024CCE3 /* PHIPGWMainButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA021A231BB5EA0024CCE3 /* PHIPGWMainButtonGroupView.swift */; };
+		E7EA021E231BCDF90024CCE3 /* PHIPGWStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA021D231BCDF90024CCE3 /* PHIPGWStatus.swift */; };
+		E7EA0220231BD10E0024CCE3 /* PHIPGWConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA021F231BD10E0024CCE3 /* PHIPGWConnection.swift */; };
+		E7EA0222231BD3780024CCE3 /* PHIPGWStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0221231BD3780024CCE3 /* PHIPGWStatusTableViewCell.swift */; };
+		E7EA0224231BD3860024CCE3 /* PHIPGWConnectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0223231BD3860024CCE3 /* PHIPGWConnectionTableViewCell.swift */; };
+		E7EA022A231C11B00024CCE3 /* PHIPGWGetConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0229231C11B00024CCE3 /* PHIPGWGetConnections.swift */; };
+		E7EA022C231D16C70024CCE3 /* PHPostMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA022B231D16C70024CCE3 /* PHPostMemo.swift */; };
+		E7EA022E231E44840024CCE3 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA022D231E44840024CCE3 /* UIBarButtonItem+Extension.swift */; };
+		E7EA0230231F54F70024CCE3 /* PHLabeledStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA022F231F54F70024CCE3 /* PHLabeledStepperView.swift */; };
+		E7EA0232231FEAEC0024CCE3 /* PHV2BaseGetSemesterBeginning.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA0231231FEAEC0024CCE3 /* PHV2BaseGetSemesterBeginning.swift */; };
+		E7EA02342320DE730024CCE3 /* SwiftDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA02332320DE730024CCE3 /* SwiftDate+Extension.swift */; };
+		E7F24D9822EECF8800A2329E /* PHHolePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F24D9722EECF8800A2329E /* PHHolePostTableViewCell.swift */; };
+		E7F24D9A22EED0E200A2329E /* PHHolePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F24D9922EED0E200A2329E /* PHHolePost.swift */; };
+		E7F24D9C22EED0EF00A2329E /* PHHoleComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F24D9B22EED0EF00A2329E /* PHHoleComment.swift */; };
+		E7F24D9E22EED35C00A2329E /* PHHoleCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F24D9D22EED35C00A2329E /* PHHoleCommentTableViewCell.swift */; };
+		E7F24DA022EED3BD00A2329E /* PHHoleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F24D9F22EED3BD00A2329E /* PHHoleDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		E7C41C7A22ED6EA200D51D84 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		02AE1BBD1EBBC3648883A1CF /* Pods-PKUHelper-4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKUHelper-4.debug.xcconfig"; path = "Target Support Files/Pods-PKUHelper-4/Pods-PKUHelper-4.debug.xcconfig"; sourceTree = "<group>"; };
+		36A04672AE6398A21DA63551 /* Pods_PKUHelper_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKUHelper_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7297BFF22F4DED0006AB124 /* PHCTCourseColumnsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCourseColumnsScrollView.swift; sourceTree = "<group>"; };
+		E7297C0D22F5050A006AB124 /* PHScoreDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHScoreDetailViewController.swift; sourceTree = "<group>"; };
+		E7297C0F22F53CFF006AB124 /* PHCTSideColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTSideColumnView.swift; sourceTree = "<group>"; };
+		E7297C1122F53D0E006AB124 /* PHCTCourseColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCourseColumnView.swift; sourceTree = "<group>"; };
+		E7297C1322F53D71006AB124 /* PHCTSideGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTSideGridView.swift; sourceTree = "<group>"; };
+		E7297C1522F53D9D006AB124 /* PHCTCourseGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCourseGridView.swift; sourceTree = "<group>"; };
+		E7297C1722F53DB6006AB124 /* PHCTWeekdayHeaderGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTWeekdayHeaderGridView.swift; sourceTree = "<group>"; };
+		E7297C1922F56257006AB124 /* PHCTClassCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTClassCellView.swift; sourceTree = "<group>"; };
+		E7297C1B22F60FA7006AB124 /* PHCTCourseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCourseTableView.swift; sourceTree = "<group>"; };
+		E7297C1F22F6B37D006AB124 /* SwiftyUserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftyUserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		E7297C2122F6B48F006AB124 /* PHTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTheme.swift; sourceTree = "<group>"; };
+		E7297C2522F6E3E3006AB124 /* PHScoreTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScoreTableViewHeaderView.swift; sourceTree = "<group>"; };
+		E7297C2722F6E401006AB124 /* PHScoreTableViewFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScoreTableViewFooterView.swift; sourceTree = "<group>"; };
+		E7297C2B22F700C4006AB124 /* _PHSettingUserRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHSettingUserRowTableViewCell.swift; sourceTree = "<group>"; };
+		E7297C2F22F70123006AB124 /* PHSettingDualRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingDualRowTableViewCell.swift; sourceTree = "<group>"; };
+		E7297C3122F7014A006AB124 /* PHSettingSingleRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingSingleRowTableViewCell.swift; sourceTree = "<group>"; };
+		E7297C3322F797A9006AB124 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		E7297C3522F79BAD006AB124 /* PHHoleBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleBaseTableViewCell.swift; sourceTree = "<group>"; };
+		E7297C4522F7DD9F006AB124 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		E7297C4722F7E7A2006AB124 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		E745686622F92FEF004139F0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E74978E22322B3B600C33056 /* PHSettingBaseSubSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingBaseSubSettingViewController.swift; sourceTree = "<group>"; };
+		E74978E72323922D00C33056 /* PHCTCalendarExportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCalendarExportViewController.swift; sourceTree = "<group>"; };
+		E74978E92323924E00C33056 /* PHCTCalendarManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCalendarManageViewController.swift; sourceTree = "<group>"; };
+		E74978EB2323937800C33056 /* PHCTCalendarBaseClassListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCalendarBaseClassListViewController.swift; sourceTree = "<group>"; };
+		E74978ED2323972D00C33056 /* PHCTCalendarClassListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCalendarClassListTableViewCell.swift; sourceTree = "<group>"; };
+		E74978F12323B4A400C33056 /* PHEventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHEventManager.swift; sourceTree = "<group>"; };
+		E74978F4232CA8CB00C33056 /* EKEvent+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEvent+Extension.swift"; sourceTree = "<group>"; };
+		E74978F6232D172A00C33056 /* PHBackendAPI+Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHBackendAPI+Message.swift"; sourceTree = "<group>"; };
+		E74978FA232D259300C33056 /* PHV2MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2MessageList.swift; sourceTree = "<group>"; };
+		E74978FC232D2F9F00C33056 /* PHMessageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMessageDetailView.swift; sourceTree = "<group>"; };
+		E74978FE232E660E00C33056 /* PHV2MessageUnreadCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2MessageUnreadCount.swift; sourceTree = "<group>"; };
+		E74C6E622340536F00A7B783 /* PHCourseTableDye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCourseTableDye.swift; sourceTree = "<group>"; };
+		E74C6E64234080E700A7B783 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		E74C6E662340BE9000A7B783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74C6E6823422EB600A7B783 /* PHTestColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTestColorPickerViewController.swift; sourceTree = "<group>"; };
+		E74C6E6A234233EA00A7B783 /* PHMultiColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMultiColorPicker.swift; sourceTree = "<group>"; };
+		E74C6E6C234234FE00A7B783 /* PHColorPickerColorCircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHColorPickerColorCircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74C6E6E2343369C00A7B783 /* PHColorPickerButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHColorPickerButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74C6E7223433F1600A7B783 /* _PHColorPickerRGBColorEditorBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHColorPickerRGBColorEditorBarView.swift; sourceTree = "<group>"; };
+		E74C6E762343863100A7B783 /* PHColorPickerBaseCircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHColorPickerBaseCircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74C6E7A2344762F00A7B783 /* PHSingleColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSingleColorPicker.swift; sourceTree = "<group>"; };
+		E74C6E7C2344766700A7B783 /* PHBaseColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHBaseColorPicker.swift; sourceTree = "<group>"; };
+		E74C6E7E2344FA9B00A7B783 /* PHColorPickerColorPoolCollectionViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHColorPickerColorPoolCollectionViewHeaderView.swift; sourceTree = "<group>"; };
+		E74C6EBB234689FD00A7B783 /* PHClickableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHClickableTextView.swift; sourceTree = "<group>"; };
+		E74C6EBE23468ADC00A7B783 /* PHScaledHeightImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScaledHeightImageView.swift; sourceTree = "<group>"; };
+		E7554F4E230BAFF400B68D13 /* SwifterSwift-Shared-Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwifterSwift-Shared-Color+Extension.swift"; sourceTree = "<group>"; };
+		E7554F50230BCABB00B68D13 /* PHCTCustomCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesViewController.swift; sourceTree = "<group>"; };
+		E7554F55230BCFE700B68D13 /* PHCTCustomCoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F57230BE95E00B68D13 /* PHCTCustomCoursesEditingBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesEditingBaseViewController.swift; sourceTree = "<group>"; };
+		E7554F59230BF4FB00B68D13 /* PHCTCustomCoursesEditingClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesEditingClassTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F5B230BF75D00B68D13 /* PHCTCustomCoursesEditingEditClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesEditingEditClassTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F5D230C0D3C00B68D13 /* PHCTCustomCoursesEditingAddClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesEditingAddClassTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F5F230C137E00B68D13 /* PHCTCustomCoursesAddCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesAddCourseViewController.swift; sourceTree = "<group>"; };
+		E7554F63230C249A00B68D13 /* PHCTCustomCoursesEditingClassTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesEditingClassTableViewHeaderView.swift; sourceTree = "<group>"; };
+		E7554F65230D535600B68D13 /* PHCTCustomCoursesEditCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCustomCoursesEditCourseViewController.swift; sourceTree = "<group>"; };
+		E7554F67230E314500B68D13 /* PHCTManageCloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTManageCloudViewController.swift; sourceTree = "<group>"; };
+		E7554F69230E320D00B68D13 /* PHCTCourseListBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTCourseListBaseTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F6B230E35BB00B68D13 /* _PHCTCourseListSubClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHCTCourseListSubClassesTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F6D230E364500B68D13 /* _PHCTCourseListSubClassesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHCTCourseListSubClassesTableView.swift; sourceTree = "<group>"; };
+		E7554F6F230E3E5A00B68D13 /* _PHCTCourseListSubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHCTCourseListSubTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F71230E477500B68D13 /* PHCTManageCloudTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTManageCloudTableViewCell.swift; sourceTree = "<group>"; };
+		E7554F73230E49EB00B68D13 /* PHBackendAPI+Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHBackendAPI+Cloud.swift"; sourceTree = "<group>"; };
+		E7554F76230E71C800B68D13 /* PHV2CloudCourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2CloudCourseList.swift; sourceTree = "<group>"; };
+		E7554F78230E72FC00B68D13 /* PHV2Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2Login.swift; sourceTree = "<group>"; };
+		E7554F7A230E8EE600B68D13 /* PHV2CloudUploadCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2CloudUploadCourse.swift; sourceTree = "<group>"; };
+		E7554F7C230E94F900B68D13 /* PHBackendAPI+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHBackendAPI+Base.swift"; sourceTree = "<group>"; };
+		E7554F80230EBA7900B68D13 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		E7554F8523113D1100B68D13 /* NSTextCheckingResult+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextCheckingResult+Extension.swift"; sourceTree = "<group>"; };
+		E7554F8723124C0E00B68D13 /* PHHoleDetailTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleDetailTableViewHeaderView.swift; sourceTree = "<group>"; };
+		E7560CBD22ED3875002D2FF5 /* PKUHelper-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PKUHelper-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7560CC022ED3875002D2FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7560CCC22ED3876002D2FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7773043230318F9005F21F2 /* PHUserDetailInfoRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserDetailInfoRowTableViewCell.swift; sourceTree = "<group>"; };
+		E77730452303B6E6005F21F2 /* PHUserButtonRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserButtonRowTableViewCell.swift; sourceTree = "<group>"; };
+		E77730472303BB45005F21F2 /* PHBackendAPI+Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHBackendAPI+Person.swift"; sourceTree = "<group>"; };
+		E777304A2303C218005F21F2 /* PHV2PersonCourseTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2PersonCourseTable.swift; sourceTree = "<group>"; };
+		E777304C2303E373005F21F2 /* PHCTWeekdayHeaderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTWeekdayHeaderRowView.swift; sourceTree = "<group>"; };
+		E777304E2304157E005F21F2 /* PHV2PersonScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2PersonScore.swift; sourceTree = "<group>"; };
+		E777305523046B3A005F21F2 /* PHUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUtil.swift; sourceTree = "<group>"; };
+		E777305B230551CD005F21F2 /* _PHRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHRefreshHeader.swift; sourceTree = "<group>"; };
+		E777305D2305652D005F21F2 /* PHRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHRefreshFooter.swift; sourceTree = "<group>"; };
+		E777305F2305717F005F21F2 /* PHBackendAPI+PKUHole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHBackendAPI+PKUHole.swift"; sourceTree = "<group>"; };
+		E77730622306C61D005F21F2 /* PHV2PKUHolePostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2PKUHolePostList.swift; sourceTree = "<group>"; };
+		E77730642306C7F6005F21F2 /* PHV2PKUHolePostOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2PKUHolePostOne.swift; sourceTree = "<group>"; };
+		E77730662306C900005F21F2 /* PHTestPKUHoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTestPKUHoleViewController.swift; sourceTree = "<group>"; };
+		E77730682306D8CF005F21F2 /* ObjectMapper+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObjectMapper+Extension.swift"; sourceTree = "<group>"; };
+		E777306A2306E165005F21F2 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		E777306F23082EB3005F21F2 /* PHV2NullDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2NullDetail.swift; sourceTree = "<group>"; };
+		E777307123084031005F21F2 /* PHHoleTranslucentWritingBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleTranslucentWritingBaseViewController.swift; sourceTree = "<group>"; };
+		E7773073230845D2005F21F2 /* PHHoleWriteReportReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleWriteReportReasonViewController.swift; sourceTree = "<group>"; };
+		E77730772309A00D005F21F2 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		E78A03E722F8CE66005B4636 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		E78A03EB22F8FF71005B4636 /* _PHTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHTabBarController.swift; sourceTree = "<group>"; };
+		E78A03ED22F90391005B4636 /* PHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHNavigationController.swift; sourceTree = "<group>"; };
+		E78A03EF22F9072F005B4636 /* PHBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHBaseViewController.swift; sourceTree = "<group>"; };
+		E79B108822FCFAB300513AD5 /* PHMyPKUCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMyPKUCollectionViewCell.swift; sourceTree = "<group>"; };
+		E79B108F22FD814A00513AD5 /* PHAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHAlert.swift; sourceTree = "<group>"; };
+		E79B109122FD947A00513AD5 /* CGSize+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
+		E79B109522FDA2EB00513AD5 /* _PHWebBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHWebBrowserViewController.swift; sourceTree = "<group>"; };
+		E79B109722FDD7C000513AD5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E79B10BC22FE9AE700513AD5 /* PHBackendAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHBackendAPI.swift; sourceTree = "<group>"; };
+		E79B10C322FE9E0E00513AD5 /* PHBackendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHBackendError.swift; sourceTree = "<group>"; };
+		E79B10C922FEBA5200513AD5 /* PHBackendAPI+Alamofire+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHBackendAPI+Alamofire+Extension.swift"; sourceTree = "<group>"; };
+		E79B10D322FFBD7A00513AD5 /* PHSettingAboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingAboutUsViewController.swift; sourceTree = "<group>"; };
+		E79B10D522FFBE5F00513AD5 /* PHSettingCourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingCourseTableViewController.swift; sourceTree = "<group>"; };
+		E79B10D722FFBF0200513AD5 /* PHSettingScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingScoreViewController.swift; sourceTree = "<group>"; };
+		E79B10D922FFBF5C00513AD5 /* PHSettingPKUHoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingPKUHoleViewController.swift; sourceTree = "<group>"; };
+		E79B10DB22FFBFFE00513AD5 /* PHSettingMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingMessageViewController.swift; sourceTree = "<group>"; };
+		E79B10DD2301047000513AD5 /* _PHUserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHUserLoginViewController.swift; sourceTree = "<group>"; };
+		E79B10DF23012EE000513AD5 /* PHBackendAPI+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHBackendAPI+Login.swift"; sourceTree = "<group>"; };
+		E79B10F623019F0100513AD5 /* PHV2ResponseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2ResponseDetail.swift; sourceTree = "<group>"; };
+		E79B10FA2301A1A600513AD5 /* PHV2BaseGetTimestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2BaseGetTimestamp.swift; sourceTree = "<group>"; };
+		E79B10FD2301B1F200513AD5 /* PHV2LoginGetMobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2LoginGetMobile.swift; sourceTree = "<group>"; };
+		E79B10FF2301B4B600513AD5 /* PHV2LoginGetCaptcha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2LoginGetCaptcha.swift; sourceTree = "<group>"; };
+		E79B11012301B4F400513AD5 /* PHV2LoginCaptcha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2LoginCaptcha.swift; sourceTree = "<group>"; };
+		E79B11032301BA1400513AD5 /* _PHUserLoginCaptchaPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHUserLoginCaptchaPopupViewController.swift; sourceTree = "<group>"; };
+		E79B1105230280C000513AD5 /* PHV2LoginSendValidcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2LoginSendValidcode.swift; sourceTree = "<group>"; };
+		E79B11072302917900513AD5 /* PHV2ResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2ResponseStatus.swift; sourceTree = "<group>"; };
+		E79B1109230296DD00513AD5 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		E79B110F2302F8E000513AD5 /* _PHUserDetailLogoutRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHUserDetailLogoutRowTableViewCell.swift; sourceTree = "<group>"; };
+		E79B11112303004F00513AD5 /* PHUserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserDetailViewController.swift; sourceTree = "<group>"; };
+		E7A081A522F136CD0032462E /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; usesTabs = 0; };
+		E7A081A722F1490B0032462E /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		E7A081A922F164CA0032462E /* UIEdgeInsets+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extension.swift"; sourceTree = "<group>"; };
+		E7A081AD22F18B470032462E /* PHScoreMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScoreMainViewController.swift; sourceTree = "<group>"; };
+		E7A081AF22F18C2A0032462E /* PHScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScoreTableViewCell.swift; sourceTree = "<group>"; };
+		E7A081B122F18C370032462E /* PHScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScore.swift; sourceTree = "<group>"; };
+		E7A081B322F18C6A0032462E /* PHCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCourse.swift; sourceTree = "<group>"; };
+		E7A081BC22F1F5860032462E /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		E7A081BE22F1F6B80032462E /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		E7A081C222F2858A0032462E /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		E7A081C422F287760032462E /* PHScoreDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScoreDetailTableViewCell.swift; sourceTree = "<group>"; };
+		E7A081C722F2B3910032462E /* PHScoreSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHScoreSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		E7A19C9F22F0378E00BEAD37 /* Notification.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extension.swift"; sourceTree = "<group>"; };
+		E7A19CA322F040AE00BEAD37 /* _PHSettingThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHSettingThemeViewController.swift; sourceTree = "<group>"; };
+		E7A19CA522F0414700BEAD37 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E7A19CA722F04A4600BEAD37 /* PHThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHThemeManager.swift; sourceTree = "<group>"; };
+		E7A19CA922F056D700BEAD37 /* PHSettingThemeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingThemeTableViewCell.swift; sourceTree = "<group>"; };
+		E7A19CB822F0B0D000BEAD37 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E7A19CBA22F113CD00BEAD37 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E7A19CC022F11B5000BEAD37 /* PHGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHGlobal.swift; sourceTree = "<group>"; };
+		E7ABC8C622FA6EA0006EB335 /* PHTestImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTestImagePickerViewController.swift; sourceTree = "<group>"; };
+		E7ABC8CB22FA9EAF006EB335 /* PHTestPopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTestPopMenuViewController.swift; sourceTree = "<group>"; };
+		E7ABC8CD22FAB8BA006EB335 /* PHHoleAttentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleAttentionViewController.swift; sourceTree = "<group>"; };
+		E7ABC8D022FABAA3006EB335 /* PHHolePostListBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHolePostListBaseViewController.swift; sourceTree = "<group>"; };
+		E7ABC8D222FAC187006EB335 /* PHTestMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTestMainViewController.swift; sourceTree = "<group>"; };
+		E7ABC8D422FACB05006EB335 /* PopMenu+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopMenu+Extension.swift"; sourceTree = "<group>"; };
+		E7ABC8D622FAF80B006EB335 /* PHHoleSearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleSearchResultViewController.swift; sourceTree = "<group>"; };
+		E7ABC8D922FB1637006EB335 /* PHHoleWritePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleWritePostViewController.swift; sourceTree = "<group>"; };
+		E7ABC8DB22FC07A3006EB335 /* PHHoleWriteCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleWriteCommentViewController.swift; sourceTree = "<group>"; };
+		E7C41C6B22ED471F00D51D84 /* PHSettingMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingMainViewController.swift; sourceTree = "<group>"; };
+		E7C41C7122ED490B00D51D84 /* PHHoleMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleMainViewController.swift; sourceTree = "<group>"; };
+		E7C41C7322ED504B00D51D84 /* PHMessageMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMessageMainViewController.swift; sourceTree = "<group>"; };
+		E7C41C7522ED510400D51D84 /* PHCTMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHCTMainViewController.swift; sourceTree = "<group>"; };
+		E7C41C7722ED512800D51D84 /* _PHMyPKUMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _PHMyPKUMainViewController.swift; sourceTree = "<group>"; };
+		E7C41C8522ED78B700D51D84 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		E7C41C9222EDE5FC00D51D84 /* PHUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUser.swift; sourceTree = "<group>"; };
+		E7C41C9422EE08B000D51D84 /* PHMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMessage.swift; sourceTree = "<group>"; };
+		E7C41C9622EE095E00D51D84 /* PHMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMessageTableViewCell.swift; sourceTree = "<group>"; };
+		E7C41C9822EE0E0300D51D84 /* PHMessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMessageDetailViewController.swift; sourceTree = "<group>"; };
+		E7CC4E8523164F34007D15D9 /* PHMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMainViewController.swift; sourceTree = "<group>"; };
+		E7CC4E8923164FD3007D15D9 /* PHMainUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMainUserView.swift; sourceTree = "<group>"; };
+		E7CC4E8B2316556A007D15D9 /* PHMainStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMainStatusView.swift; sourceTree = "<group>"; };
+		E7CC4E8D231655DD007D15D9 /* PHMainStatusCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMainStatusCellView.swift; sourceTree = "<group>"; };
+		E7CC4E9123166595007D15D9 /* PHMainModuleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMainModuleCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7CC4E952316A41F007D15D9 /* PHMainModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHMainModuleView.swift; sourceTree = "<group>"; };
+		E7DE037E2346CF0C00E74605 /* PHIPGWErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWErrorResponse.swift; sourceTree = "<group>"; };
+		E7EA01CE2316CA2A0024CCE3 /* PHV2PersonUnreadEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2PersonUnreadEmail.swift; sourceTree = "<group>"; };
+		E7EA01D02316DB030024CCE3 /* PHV2PersonBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2PersonBalance.swift; sourceTree = "<group>"; };
+		E7EA01D7231793E50024CCE3 /* PHUserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserLoginViewController.swift; sourceTree = "<group>"; };
+		E7EA01DA231798FA0024CCE3 /* PHUserLoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserLoginFormView.swift; sourceTree = "<group>"; };
+		E7EA01DC2317D9850024CCE3 /* PHUserLoginCaptchaPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserLoginCaptchaPopupViewController.swift; sourceTree = "<group>"; };
+		E7EA01DE23180A130024CCE3 /* PHHoleWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleWelcomeViewController.swift; sourceTree = "<group>"; };
+		E7EA01E02318E5D70024CCE3 /* PHHoleHiddenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleHiddenTableViewCell.swift; sourceTree = "<group>"; };
+		E7EA01E6231920A20024CCE3 /* PHSettingDeveloperOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHSettingDeveloperOptionsViewController.swift; sourceTree = "<group>"; };
+		E7EA01E8231940330024CCE3 /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extension.swift"; sourceTree = "<group>"; };
+		E7EA01EA23194DE70024CCE3 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		E7EA01EC231A95430024CCE3 /* PHUserIAAAAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserIAAAAccountViewController.swift; sourceTree = "<group>"; };
+		E7EA01EE231A9ACD0024CCE3 /* PHKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHKeychain.swift; sourceTree = "<group>"; };
+		E7EA01F0231AA70F0024CCE3 /* PHUserIAAAAcountRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUserIAAAAcountRowTableViewCell.swift; sourceTree = "<group>"; };
+		E7EA01F3231B71BD0024CCE3 /* PHIPGWAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWAPI.swift; sourceTree = "<group>"; };
+		E7EA01F7231B722D0024CCE3 /* PHURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHURL.swift; sourceTree = "<group>"; };
+		E7EA01F9231B7C7D0024CCE3 /* Alamofire+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extension.swift"; sourceTree = "<group>"; };
+		E7EA01FB231B7CAD0024CCE3 /* PHAPIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHAPIUtil.swift; sourceTree = "<group>"; };
+		E7EA0200231B7F530024CCE3 /* PHIPGWBaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWBaseResponse.swift; sourceTree = "<group>"; };
+		E7EA0204231B90CC0024CCE3 /* PHIPGWOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWOpen.swift; sourceTree = "<group>"; };
+		E7EA020C231B93AD0024CCE3 /* PHIPGWError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWError.swift; sourceTree = "<group>"; };
+		E7EA020E231B94260024CCE3 /* PHIPGWAPI+Alamofire+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHIPGWAPI+Alamofire+Extension.swift"; sourceTree = "<group>"; };
+		E7EA0210231B97B50024CCE3 /* PHIPGWAPI+Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHIPGWAPI+Router.swift"; sourceTree = "<group>"; };
+		E7EA0212231B9DA10024CCE3 /* PHIPGWSuccResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWSuccResponse.swift; sourceTree = "<group>"; };
+		E7EA0215231BA23F0024CCE3 /* PHIPGWMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWMainViewController.swift; sourceTree = "<group>"; };
+		E7EA0218231BB3A70024CCE3 /* PHIPGWMainStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWMainStatusView.swift; sourceTree = "<group>"; };
+		E7EA021A231BB5EA0024CCE3 /* PHIPGWMainButtonGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWMainButtonGroupView.swift; sourceTree = "<group>"; };
+		E7EA021D231BCDF90024CCE3 /* PHIPGWStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWStatus.swift; sourceTree = "<group>"; };
+		E7EA021F231BD10E0024CCE3 /* PHIPGWConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWConnection.swift; sourceTree = "<group>"; };
+		E7EA0221231BD3780024CCE3 /* PHIPGWStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWStatusTableViewCell.swift; sourceTree = "<group>"; };
+		E7EA0223231BD3860024CCE3 /* PHIPGWConnectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWConnectionTableViewCell.swift; sourceTree = "<group>"; };
+		E7EA0228231BE3E40024CCE3 /* PKUHelper-4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PKUHelper-4-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7EA0229231C11B00024CCE3 /* PHIPGWGetConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHIPGWGetConnections.swift; sourceTree = "<group>"; };
+		E7EA022B231D16C70024CCE3 /* PHPostMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPostMemo.swift; sourceTree = "<group>"; };
+		E7EA022D231E44840024CCE3 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		E7EA022F231F54F70024CCE3 /* PHLabeledStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHLabeledStepperView.swift; sourceTree = "<group>"; };
+		E7EA0231231FEAEC0024CCE3 /* PHV2BaseGetSemesterBeginning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHV2BaseGetSemesterBeginning.swift; sourceTree = "<group>"; };
+		E7EA02332320DE730024CCE3 /* SwiftDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftDate+Extension.swift"; sourceTree = "<group>"; };
+		E7F24D9722EECF8800A2329E /* PHHolePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHolePostTableViewCell.swift; sourceTree = "<group>"; };
+		E7F24D9922EED0E200A2329E /* PHHolePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHolePost.swift; sourceTree = "<group>"; };
+		E7F24D9B22EED0EF00A2329E /* PHHoleComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleComment.swift; sourceTree = "<group>"; };
+		E7F24D9D22EED35C00A2329E /* PHHoleCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleCommentTableViewCell.swift; sourceTree = "<group>"; };
+		E7F24D9F22EED3BD00A2329E /* PHHoleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHHoleDetailViewController.swift; sourceTree = "<group>"; };
+		F6BC411F6D4E60144F17A8C5 /* Pods-PKUHelper-4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKUHelper-4.release.xcconfig"; path = "Target Support Files/Pods-PKUHelper-4/Pods-PKUHelper-4.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7560CBA22ED3875002D2FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53334B4427EFDD329B384A25 /* Pods_PKUHelper_4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C857462B362D74C8560D09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02AE1BBD1EBBC3648883A1CF /* Pods-PKUHelper-4.debug.xcconfig */,
+				F6BC411F6D4E60144F17A8C5 /* Pods-PKUHelper-4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B7AF2B16E104199E005C332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36A04672AE6398A21DA63551 /* Pods_PKUHelper_4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7297C2922F6FD32006AB124 /* PHCourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				E7554F54230BCFB300B68D13 /* CourseTable */,
+				E7554F69230E320D00B68D13 /* PHCTCourseListBaseTableViewCell.swift */,
+				E7554F6F230E3E5A00B68D13 /* _PHCTCourseListSubTableViewCell.swift */,
+				E7554F6D230E364500B68D13 /* _PHCTCourseListSubClassesTableView.swift */,
+				E7554F6B230E35BB00B68D13 /* _PHCTCourseListSubClassesTableViewCell.swift */,
+				E7554F55230BCFE700B68D13 /* PHCTCustomCoursesTableViewCell.swift */,
+				E7554F63230C249A00B68D13 /* PHCTCustomCoursesEditingClassTableViewHeaderView.swift */,
+				E7554F59230BF4FB00B68D13 /* PHCTCustomCoursesEditingClassTableViewCell.swift */,
+				E7554F5D230C0D3C00B68D13 /* PHCTCustomCoursesEditingAddClassTableViewCell.swift */,
+				E7554F5B230BF75D00B68D13 /* PHCTCustomCoursesEditingEditClassTableViewCell.swift */,
+				E7554F71230E477500B68D13 /* PHCTManageCloudTableViewCell.swift */,
+				E74978ED2323972D00C33056 /* PHCTCalendarClassListTableViewCell.swift */,
+			);
+			name = PHCourseTable;
+			sourceTree = "<group>";
+		};
+		E7297C2A22F6FFB9006AB124 /* PHScore */ = {
+			isa = PBXGroup;
+			children = (
+				E7A081AF22F18C2A0032462E /* PHScoreTableViewCell.swift */,
+				E7A081C722F2B3910032462E /* PHScoreSummaryTableViewCell.swift */,
+				E7297C2522F6E3E3006AB124 /* PHScoreTableViewHeaderView.swift */,
+				E7297C2722F6E401006AB124 /* PHScoreTableViewFooterView.swift */,
+				E7A081C422F287760032462E /* PHScoreDetailTableViewCell.swift */,
+			);
+			name = PHScore;
+			sourceTree = "<group>";
+		};
+		E74978F9232D257300C33056 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E74978FA232D259300C33056 /* PHV2MessageList.swift */,
+				E74978FE232E660E00C33056 /* PHV2MessageUnreadCount.swift */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		E74C6E7023433D7300A7B783 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E74C6E7123433EB800A7B783 /* ColorPicker */,
+				E74C6EBB234689FD00A7B783 /* PHClickableTextView.swift */,
+				E74C6EBE23468ADC00A7B783 /* PHScaledHeightImageView.swift */,
+				E7EA022F231F54F70024CCE3 /* PHLabeledStepperView.swift */,
+				E777305B230551CD005F21F2 /* _PHRefreshHeader.swift */,
+				E777305D2305652D005F21F2 /* PHRefreshFooter.swift */,
+			);
+			name = Component;
+			path = View;
+			sourceTree = "<group>";
+		};
+		E74C6E7123433EB800A7B783 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E74C6E7C2344766700A7B783 /* PHBaseColorPicker.swift */,
+				E74C6E7A2344762F00A7B783 /* PHSingleColorPicker.swift */,
+				E74C6E6A234233EA00A7B783 /* PHMultiColorPicker.swift */,
+				E74C6E762343863100A7B783 /* PHColorPickerBaseCircleCollectionViewCell.swift */,
+				E74C6E6C234234FE00A7B783 /* PHColorPickerColorCircleCollectionViewCell.swift */,
+				E74C6E6E2343369C00A7B783 /* PHColorPickerButtonCollectionViewCell.swift */,
+				E74C6E7E2344FA9B00A7B783 /* PHColorPickerColorPoolCollectionViewHeaderView.swift */,
+				E74C6E7223433F1600A7B783 /* _PHColorPickerRGBColorEditorBarView.swift */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		E7554F52230BCED100B68D13 /* PHCourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				E7C41C7522ED510400D51D84 /* PHCTMainViewController.swift */,
+				E7554F50230BCABB00B68D13 /* PHCTCustomCoursesViewController.swift */,
+				E7554F57230BE95E00B68D13 /* PHCTCustomCoursesEditingBaseViewController.swift */,
+				E7554F5F230C137E00B68D13 /* PHCTCustomCoursesAddCourseViewController.swift */,
+				E7554F65230D535600B68D13 /* PHCTCustomCoursesEditCourseViewController.swift */,
+				E7554F67230E314500B68D13 /* PHCTManageCloudViewController.swift */,
+				E74978EB2323937800C33056 /* PHCTCalendarBaseClassListViewController.swift */,
+				E74978E72323922D00C33056 /* PHCTCalendarExportViewController.swift */,
+				E74978E92323924E00C33056 /* PHCTCalendarManageViewController.swift */,
+			);
+			name = PHCourseTable;
+			sourceTree = "<group>";
+		};
+		E7554F53230BCEED00B68D13 /* PHScore */ = {
+			isa = PBXGroup;
+			children = (
+				E7A081AD22F18B470032462E /* PHScoreMainViewController.swift */,
+				E7297C0D22F5050A006AB124 /* PHScoreDetailViewController.swift */,
+			);
+			name = PHScore;
+			sourceTree = "<group>";
+		};
+		E7554F54230BCFB300B68D13 /* CourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				E7297C1B22F60FA7006AB124 /* PHCTCourseTableView.swift */,
+				E7297BFF22F4DED0006AB124 /* PHCTCourseColumnsScrollView.swift */,
+				E7297C0F22F53CFF006AB124 /* PHCTSideColumnView.swift */,
+				E7297C1322F53D71006AB124 /* PHCTSideGridView.swift */,
+				E7297C1122F53D0E006AB124 /* PHCTCourseColumnView.swift */,
+				E7297C1522F53D9D006AB124 /* PHCTCourseGridView.swift */,
+				E777304C2303E373005F21F2 /* PHCTWeekdayHeaderRowView.swift */,
+				E7297C1722F53DB6006AB124 /* PHCTWeekdayHeaderGridView.swift */,
+				E7297C1922F56257006AB124 /* PHCTClassCellView.swift */,
+			);
+			name = CourseTable;
+			sourceTree = "<group>";
+		};
+		E7554F75230E71AC00B68D13 /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				E7554F76230E71C800B68D13 /* PHV2CloudCourseList.swift */,
+				E7554F7A230E8EE600B68D13 /* PHV2CloudUploadCourse.swift */,
+			);
+			name = Cloud;
+			sourceTree = "<group>";
+		};
+		E7560CB422ED3875002D2FF5 = {
+			isa = PBXGroup;
+			children = (
+				E7560CBF22ED3875002D2FF5 /* Source */,
+				E7560CBE22ED3875002D2FF5 /* Products */,
+				92C857462B362D74C8560D09 /* Pods */,
+				9B7AF2B16E104199E005C332 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7560CBE22ED3875002D2FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7560CBD22ED3875002D2FF5 /* PKUHelper-4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7560CBF22ED3875002D2FF5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E7C41C8222ED75FE00D51D84 /* Helper */,
+				E7560CD722ED3945002D2FF5 /* Extension */,
+				E74C6E7023433D7300A7B783 /* Component */,
+				E7C41C8122ED73F300D51D84 /* View */,
+				E7560CD322ED3926002D2FF5 /* ViewController */,
+				E7560CD622ED3940002D2FF5 /* Model */,
+				E7560CD922ED3AA9002D2FF5 /* Service */,
+				E7560CD522ED3937002D2FF5 /* Resource */,
+				E7560CC022ED3875002D2FF5 /* AppDelegate.swift */,
+				E7EA0228231BE3E40024CCE3 /* PKUHelper-4-Bridging-Header.h */,
+				E745686622F92FEF004139F0 /* Launch Screen.storyboard */,
+				E7560CCC22ED3876002D2FF5 /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E7560CD322ED3926002D2FF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E7ABC8C822FA6FC4006EB335 /* PHTest */,
+				E7554F52230BCED100B68D13 /* PHCourseTable */,
+				E7554F53230BCEED00B68D13 /* PHScore */,
+				E7ABC8CF22FABA4A006EB335 /* PHHole */,
+				E79B108A22FD2CDD00513AD5 /* PHMessage */,
+				E79B109B22FDDC0A00513AD5 /* PHMyPKU */,
+				E7EA0214231BA21B0024CCE3 /* PHIPGW */,
+				E79B108C22FD2D0000513AD5 /* PHSetting */,
+				E7EA01D42316E7B50024CCE3 /* PHUser */,
+				E78A03EF22F9072F005B4636 /* PHBaseViewController.swift */,
+				E78A03ED22F90391005B4636 /* PHNavigationController.swift */,
+				E78A03EB22F8FF71005B4636 /* _PHTabBarController.swift */,
+				E79B109522FDA2EB00513AD5 /* _PHWebBrowserViewController.swift */,
+				E7CC4E8523164F34007D15D9 /* PHMainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E7560CD522ED3937002D2FF5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E74C6E662340BE9000A7B783 /* Assets.xcassets */,
+				E7C41C8522ED78B700D51D84 /* R.generated.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E7560CD622ED3940002D2FF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7C41C9222EDE5FC00D51D84 /* PHUser.swift */,
+				E7C41C9422EE08B000D51D84 /* PHMessage.swift */,
+				E7F24D9922EED0E200A2329E /* PHHolePost.swift */,
+				E7F24D9B22EED0EF00A2329E /* PHHoleComment.swift */,
+				E7A081B122F18C370032462E /* PHScore.swift */,
+				E7A081B322F18C6A0032462E /* PHCourse.swift */,
+				E7EA021D231BCDF90024CCE3 /* PHIPGWStatus.swift */,
+				E7EA021F231BD10E0024CCE3 /* PHIPGWConnection.swift */,
+				E7EA022B231D16C70024CCE3 /* PHPostMemo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7560CD722ED3945002D2FF5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E7297C1F22F6B37D006AB124 /* SwiftyUserDefaults+Extension.swift */,
+				E7EA02332320DE730024CCE3 /* SwiftDate+Extension.swift */,
+				E77730682306D8CF005F21F2 /* ObjectMapper+Extension.swift */,
+				E7ABC8D422FACB05006EB335 /* PopMenu+Extension.swift */,
+				E7A081A522F136CD0032462E /* Int+Extension.swift */,
+				E7EA01E8231940330024CCE3 /* TimeInterval+Extension.swift */,
+				E7A081C222F2858A0032462E /* Double+Extension.swift */,
+				E78A03E722F8CE66005B4636 /* String+Extension.swift */,
+				E7A081BC22F1F5860032462E /* Collection+Extension.swift */,
+				E777306A2306E165005F21F2 /* Array+Extension.swift */,
+				E74C6E64234080E700A7B783 /* Dictionary+Extension.swift */,
+				E7A19C9F22F0378E00BEAD37 /* Notification.Name+Extension.swift */,
+				E7297C4522F7DD9F006AB124 /* Bundle+Extension.swift */,
+				E7554F8523113D1100B68D13 /* NSTextCheckingResult+Extension.swift */,
+				E79B109122FD947A00513AD5 /* CGSize+Extension.swift */,
+				E7A19CB822F0B0D000BEAD37 /* UIView+Extension.swift */,
+				E7A081A922F164CA0032462E /* UIEdgeInsets+Extension.swift */,
+				E7554F4E230BAFF400B68D13 /* SwifterSwift-Shared-Color+Extension.swift */,
+				E7A19CA522F0414700BEAD37 /* UIColor+Extension.swift */,
+				E79B1109230296DD00513AD5 /* UITextField+Extension.swift */,
+				E7554F80230EBA7900B68D13 /* UIButton+Extension.swift */,
+				E7EA022D231E44840024CCE3 /* UIBarButtonItem+Extension.swift */,
+				E7A19CBA22F113CD00BEAD37 /* UIImage+Extension.swift */,
+				E7297C4722F7E7A2006AB124 /* UIImageView+Extension.swift */,
+				E7A081A722F1490B0032462E /* UITextView+Extension.swift */,
+				E7297C3322F797A9006AB124 /* UIStackView+Extension.swift */,
+				E7EA01EA23194DE70024CCE3 /* UIScrollView+Extension.swift */,
+				E7A081BE22F1F6B80032462E /* UITableView+Extension.swift */,
+				E79B109722FDD7C000513AD5 /* UIViewController+Extension.swift */,
+				E77730772309A00D005F21F2 /* UINavigationController+Extension.swift */,
+				E74978F4232CA8CB00C33056 /* EKEvent+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E7560CD922ED3AA9002D2FF5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA01F6231B71EB0024CCE3 /* Backend */,
+				E7EA01F5231B71CE0024CCE3 /* IPGW */,
+				E7EA01F7231B722D0024CCE3 /* PHURL.swift */,
+				E7EA01FB231B7CAD0024CCE3 /* PHAPIUtil.swift */,
+				E7EA01F9231B7C7D0024CCE3 /* Alamofire+Extension.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E77730492303C1F9005F21F2 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				E777304A2303C218005F21F2 /* PHV2PersonCourseTable.swift */,
+				E777304E2304157E005F21F2 /* PHV2PersonScore.swift */,
+				E7EA01CE2316CA2A0024CCE3 /* PHV2PersonUnreadEmail.swift */,
+				E7EA01D02316DB030024CCE3 /* PHV2PersonBalance.swift */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		E77730612306C5D9005F21F2 /* PKUHole */ = {
+			isa = PBXGroup;
+			children = (
+				E77730622306C61D005F21F2 /* PHV2PKUHolePostList.swift */,
+				E77730642306C7F6005F21F2 /* PHV2PKUHolePostOne.swift */,
+			);
+			name = PKUHole;
+			sourceTree = "<group>";
+		};
+		E79B108722FCFA8C00513AD5 /* PHSetting */ = {
+			isa = PBXGroup;
+			children = (
+				E7A19CA922F056D700BEAD37 /* PHSettingThemeTableViewCell.swift */,
+				E7297C3122F7014A006AB124 /* PHSettingSingleRowTableViewCell.swift */,
+				E7297C2F22F70123006AB124 /* PHSettingDualRowTableViewCell.swift */,
+				E7297C2B22F700C4006AB124 /* _PHSettingUserRowTableViewCell.swift */,
+			);
+			name = PHSetting;
+			sourceTree = "<group>";
+		};
+		E79B108A22FD2CDD00513AD5 /* PHMessage */ = {
+			isa = PBXGroup;
+			children = (
+				E7C41C7322ED504B00D51D84 /* PHMessageMainViewController.swift */,
+				E7C41C9822EE0E0300D51D84 /* PHMessageDetailViewController.swift */,
+			);
+			name = PHMessage;
+			sourceTree = "<group>";
+		};
+		E79B108C22FD2D0000513AD5 /* PHSetting */ = {
+			isa = PBXGroup;
+			children = (
+				E7C41C6B22ED471F00D51D84 /* PHSettingMainViewController.swift */,
+				E74978E22322B3B600C33056 /* PHSettingBaseSubSettingViewController.swift */,
+				E79B10D522FFBE5F00513AD5 /* PHSettingCourseTableViewController.swift */,
+				E79B10D722FFBF0200513AD5 /* PHSettingScoreViewController.swift */,
+				E79B10D922FFBF5C00513AD5 /* PHSettingPKUHoleViewController.swift */,
+				E79B10DB22FFBFFE00513AD5 /* PHSettingMessageViewController.swift */,
+				E7EA01E6231920A20024CCE3 /* PHSettingDeveloperOptionsViewController.swift */,
+				E7A19CA322F040AE00BEAD37 /* _PHSettingThemeViewController.swift */,
+				E79B10D322FFBD7A00513AD5 /* PHSettingAboutUsViewController.swift */,
+			);
+			name = PHSetting;
+			sourceTree = "<group>";
+		};
+		E79B109B22FDDC0A00513AD5 /* PHMyPKU */ = {
+			isa = PBXGroup;
+			children = (
+				E7C41C7722ED512800D51D84 /* _PHMyPKUMainViewController.swift */,
+			);
+			name = PHMyPKU;
+			sourceTree = "<group>";
+		};
+		E79B10F523019EE900513AD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E79B10F92301A19300513AD5 /* Base */,
+				E79B10FC2301B1D400513AD5 /* Login */,
+				E77730492303C1F9005F21F2 /* Person */,
+				E74978F9232D257300C33056 /* Message */,
+				E77730612306C5D9005F21F2 /* PKUHole */,
+				E7554F75230E71AC00B68D13 /* Cloud */,
+				E79B11072302917900513AD5 /* PHV2ResponseStatus.swift */,
+				E79B10F623019F0100513AD5 /* PHV2ResponseDetail.swift */,
+				E777306F23082EB3005F21F2 /* PHV2NullDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E79B10F92301A19300513AD5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E79B10FA2301A1A600513AD5 /* PHV2BaseGetTimestamp.swift */,
+				E7EA0231231FEAEC0024CCE3 /* PHV2BaseGetSemesterBeginning.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		E79B10FC2301B1D400513AD5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E79B10FD2301B1F200513AD5 /* PHV2LoginGetMobile.swift */,
+				E79B10FF2301B4B600513AD5 /* PHV2LoginGetCaptcha.swift */,
+				E79B11012301B4F400513AD5 /* PHV2LoginCaptcha.swift */,
+				E79B1105230280C000513AD5 /* PHV2LoginSendValidcode.swift */,
+				E7554F78230E72FC00B68D13 /* PHV2Login.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E7ABC8C822FA6FC4006EB335 /* PHTest */ = {
+			isa = PBXGroup;
+			children = (
+				E7ABC8D222FAC187006EB335 /* PHTestMainViewController.swift */,
+				E7ABC8C622FA6EA0006EB335 /* PHTestImagePickerViewController.swift */,
+				E7ABC8CB22FA9EAF006EB335 /* PHTestPopMenuViewController.swift */,
+				E77730662306C900005F21F2 /* PHTestPKUHoleViewController.swift */,
+				E74C6E6823422EB600A7B783 /* PHTestColorPickerViewController.swift */,
+			);
+			name = PHTest;
+			sourceTree = "<group>";
+		};
+		E7ABC8CF22FABA4A006EB335 /* PHHole */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA01DE23180A130024CCE3 /* PHHoleWelcomeViewController.swift */,
+				E7ABC8D022FABAA3006EB335 /* PHHolePostListBaseViewController.swift */,
+				E777307123084031005F21F2 /* PHHoleTranslucentWritingBaseViewController.swift */,
+				E7C41C7122ED490B00D51D84 /* PHHoleMainViewController.swift */,
+				E7ABC8D922FB1637006EB335 /* PHHoleWritePostViewController.swift */,
+				E7ABC8CD22FAB8BA006EB335 /* PHHoleAttentionViewController.swift */,
+				E7ABC8D622FAF80B006EB335 /* PHHoleSearchResultViewController.swift */,
+				E7F24D9F22EED3BD00A2329E /* PHHoleDetailViewController.swift */,
+				E7ABC8DB22FC07A3006EB335 /* PHHoleWriteCommentViewController.swift */,
+				E7773073230845D2005F21F2 /* PHHoleWriteReportReasonViewController.swift */,
+			);
+			name = PHHole;
+			sourceTree = "<group>";
+		};
+		E7ABC8D822FAFC4E006EB335 /* PHHole */ = {
+			isa = PBXGroup;
+			children = (
+				E7297C3522F79BAD006AB124 /* PHHoleBaseTableViewCell.swift */,
+				E7F24D9722EECF8800A2329E /* PHHolePostTableViewCell.swift */,
+				E7F24D9D22EED35C00A2329E /* PHHoleCommentTableViewCell.swift */,
+				E7EA01E02318E5D70024CCE3 /* PHHoleHiddenTableViewCell.swift */,
+				E7554F8723124C0E00B68D13 /* PHHoleDetailTableViewHeaderView.swift */,
+			);
+			name = PHHole;
+			sourceTree = "<group>";
+		};
+		E7C41C8122ED73F300D51D84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7297C2922F6FD32006AB124 /* PHCourseTable */,
+				E7297C2A22F6FFB9006AB124 /* PHScore */,
+				E7ABC8D822FAFC4E006EB335 /* PHHole */,
+				E7EA01D52316EB4E0024CCE3 /* PHMessage */,
+				E7EA01D62316EB6E0024CCE3 /* PHMyPKU */,
+				E7EA0217231BB3820024CCE3 /* PHIPGW */,
+				E79B108722FCFA8C00513AD5 /* PHSetting */,
+				E7EA01D32316E7630024CCE3 /* PHUser */,
+				E7CC4E8723164FB1007D15D9 /* PHMain */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C41C8222ED75FE00D51D84 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E7A19CA722F04A4600BEAD37 /* PHThemeManager.swift */,
+				E7A19CC022F11B5000BEAD37 /* PHGlobal.swift */,
+				E7297C2122F6B48F006AB124 /* PHTheme.swift */,
+				E79B108F22FD814A00513AD5 /* PHAlert.swift */,
+				E777305523046B3A005F21F2 /* PHUtil.swift */,
+				E7EA01EE231A9ACD0024CCE3 /* PHKeychain.swift */,
+				E74978F12323B4A400C33056 /* PHEventManager.swift */,
+				E74C6E622340536F00A7B783 /* PHCourseTableDye.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E7CC4E8723164FB1007D15D9 /* PHMain */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC4E8923164FD3007D15D9 /* PHMainUserView.swift */,
+				E7CC4E8B2316556A007D15D9 /* PHMainStatusView.swift */,
+				E7CC4E8D231655DD007D15D9 /* PHMainStatusCellView.swift */,
+				E7CC4E952316A41F007D15D9 /* PHMainModuleView.swift */,
+				E7CC4E9123166595007D15D9 /* PHMainModuleCollectionViewCell.swift */,
+			);
+			name = PHMain;
+			sourceTree = "<group>";
+		};
+		E7EA01D32316E7630024CCE3 /* PHUser */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA01DA231798FA0024CCE3 /* PHUserLoginFormView.swift */,
+				E7773043230318F9005F21F2 /* PHUserDetailInfoRowTableViewCell.swift */,
+				E77730452303B6E6005F21F2 /* PHUserButtonRowTableViewCell.swift */,
+				E7EA01F0231AA70F0024CCE3 /* PHUserIAAAAcountRowTableViewCell.swift */,
+				E79B110F2302F8E000513AD5 /* _PHUserDetailLogoutRowTableViewCell.swift */,
+			);
+			name = PHUser;
+			sourceTree = "<group>";
+		};
+		E7EA01D42316E7B50024CCE3 /* PHUser */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA01D7231793E50024CCE3 /* PHUserLoginViewController.swift */,
+				E7EA01DC2317D9850024CCE3 /* PHUserLoginCaptchaPopupViewController.swift */,
+				E79B11112303004F00513AD5 /* PHUserDetailViewController.swift */,
+				E7EA01EC231A95430024CCE3 /* PHUserIAAAAccountViewController.swift */,
+				E79B10DD2301047000513AD5 /* _PHUserLoginViewController.swift */,
+				E79B11032301BA1400513AD5 /* _PHUserLoginCaptchaPopupViewController.swift */,
+			);
+			name = PHUser;
+			sourceTree = "<group>";
+		};
+		E7EA01D52316EB4E0024CCE3 /* PHMessage */ = {
+			isa = PBXGroup;
+			children = (
+				E7C41C9622EE095E00D51D84 /* PHMessageTableViewCell.swift */,
+				E74978FC232D2F9F00C33056 /* PHMessageDetailView.swift */,
+			);
+			name = PHMessage;
+			sourceTree = "<group>";
+		};
+		E7EA01D62316EB6E0024CCE3 /* PHMyPKU */ = {
+			isa = PBXGroup;
+			children = (
+				E79B108822FCFAB300513AD5 /* PHMyPKUCollectionViewCell.swift */,
+			);
+			name = PHMyPKU;
+			sourceTree = "<group>";
+		};
+		E7EA01F5231B71CE0024CCE3 /* IPGW */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA01FD231B7EB70024CCE3 /* Model */,
+				E7EA020E231B94260024CCE3 /* PHIPGWAPI+Alamofire+Extension.swift */,
+				E7EA020C231B93AD0024CCE3 /* PHIPGWError.swift */,
+				E7EA01F3231B71BD0024CCE3 /* PHIPGWAPI.swift */,
+				E7EA0210231B97B50024CCE3 /* PHIPGWAPI+Router.swift */,
+			);
+			path = IPGW;
+			sourceTree = "<group>";
+		};
+		E7EA01F6231B71EB0024CCE3 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				E79B10F523019EE900513AD5 /* Model */,
+				E79B10C922FEBA5200513AD5 /* PHBackendAPI+Alamofire+Extension.swift */,
+				E79B10C322FE9E0E00513AD5 /* PHBackendError.swift */,
+				E79B10BC22FE9AE700513AD5 /* PHBackendAPI.swift */,
+				E7554F7C230E94F900B68D13 /* PHBackendAPI+Base.swift */,
+				E79B10DF23012EE000513AD5 /* PHBackendAPI+Login.swift */,
+				E77730472303BB45005F21F2 /* PHBackendAPI+Person.swift */,
+				E74978F6232D172A00C33056 /* PHBackendAPI+Message.swift */,
+				E777305F2305717F005F21F2 /* PHBackendAPI+PKUHole.swift */,
+				E7554F73230E49EB00B68D13 /* PHBackendAPI+Cloud.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		E7EA01FD231B7EB70024CCE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA0200231B7F530024CCE3 /* PHIPGWBaseResponse.swift */,
+				E7EA0212231B9DA10024CCE3 /* PHIPGWSuccResponse.swift */,
+				E7DE037E2346CF0C00E74605 /* PHIPGWErrorResponse.swift */,
+				E7EA0204231B90CC0024CCE3 /* PHIPGWOpen.swift */,
+				E7EA0229231C11B00024CCE3 /* PHIPGWGetConnections.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7EA0214231BA21B0024CCE3 /* PHIPGW */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA0215231BA23F0024CCE3 /* PHIPGWMainViewController.swift */,
+			);
+			name = PHIPGW;
+			sourceTree = "<group>";
+		};
+		E7EA0217231BB3820024CCE3 /* PHIPGW */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA0218231BB3A70024CCE3 /* PHIPGWMainStatusView.swift */,
+				E7EA021A231BB5EA0024CCE3 /* PHIPGWMainButtonGroupView.swift */,
+				E7EA0221231BD3780024CCE3 /* PHIPGWStatusTableViewCell.swift */,
+				E7EA0223231BD3860024CCE3 /* PHIPGWConnectionTableViewCell.swift */,
+			);
+			name = PHIPGW;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7560CBC22ED3875002D2FF5 /* PKUHelper-4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7560CCF22ED3876002D2FF5 /* Build configuration list for PBXNativeTarget "PKUHelper-4" */;
+			buildPhases = (
+				C338E8B5B2EC4D1BEC91D852 /* [CP] Check Pods Manifest.lock */,
+				E7C41C7B22ED6EB400D51D84 /* ShellScript */,
+				E7560CB922ED3875002D2FF5 /* Sources */,
+				E7560CBA22ED3875002D2FF5 /* Frameworks */,
+				E7560CBB22ED3875002D2FF5 /* Resources */,
+				A14404FB1E80A884537498A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+				E7C41C7A22ED6EA200D51D84 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "PKUHelper-4";
+			productName = "PKUHelper-4-HandFirst";
+			productReference = E7560CBD22ED3875002D2FF5 /* PKUHelper-4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7560CB522ED3875002D2FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = PKUHelper;
+				TargetAttributes = {
+					E7560CBC22ED3875002D2FF5 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 5DRCLX38B2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E7560CB822ED3875002D2FF5 /* Build configuration list for PBXProject "PKUHelper-4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7560CB422ED3875002D2FF5;
+			productRefGroup = E7560CBE22ED3875002D2FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7560CBC22ED3875002D2FF5 /* PKUHelper-4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7560CBB22ED3875002D2FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74C6E672340BE9000A7B783 /* Assets.xcassets in Resources */,
+				E745686722F92FEF004139F0 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A14404FB1E80A884537498A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PKUHelper-4/Pods-PKUHelper-4-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceGuru/DeviceGuru.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/KMPlaceholderTextView/KMPlaceholderTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${BUILT_PRODUCTS_DIR}/NewPopMenu/PopMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PPBadgeViewSwift/PPBadgeViewSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/PullToRefreshKit/PullToRefreshKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/WXImageCompress/WXImageCompress.framework",
+				"${BUILT_PRODUCTS_DIR}/WatchdogInspector/WatchdogInspector.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceGuru.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMPlaceholderTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPBadgeViewSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToRefreshKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXImageCompress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WatchdogInspector.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PKUHelper-4/Pods-PKUHelper-4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C338E8B5B2EC4D1BEC91D852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PKUHelper-4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C41C7B22ED6EB400D51D84 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7560CB922ED3875002D2FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74978FF232E660E00C33056 /* PHV2MessageUnreadCount.swift in Sources */,
+				E7EA021E231BCDF90024CCE3 /* PHIPGWStatus.swift in Sources */,
+				E79B10F723019F0100513AD5 /* PHV2ResponseDetail.swift in Sources */,
+				E78A03EE22F90391005B4636 /* PHNavigationController.swift in Sources */,
+				E7554F58230BE95E00B68D13 /* PHCTCustomCoursesEditingBaseViewController.swift in Sources */,
+				E7554F7B230E8EE600B68D13 /* PHV2CloudUploadCourse.swift in Sources */,
+				E79B11002301B4B600513AD5 /* PHV2LoginGetCaptcha.swift in Sources */,
+				E79B109022FD814A00513AD5 /* PHAlert.swift in Sources */,
+				E74C6E7F2344FA9B00A7B783 /* PHColorPickerColorPoolCollectionViewHeaderView.swift in Sources */,
+				E7554F8823124C0E00B68D13 /* PHHoleDetailTableViewHeaderView.swift in Sources */,
+				E7297C1222F53D0E006AB124 /* PHCTCourseColumnView.swift in Sources */,
+				E74C6E7B2344762F00A7B783 /* PHSingleColorPicker.swift in Sources */,
+				E7554F66230D535600B68D13 /* PHCTCustomCoursesEditCourseViewController.swift in Sources */,
+				E7297C1C22F60FA7006AB124 /* PHCTCourseTableView.swift in Sources */,
+				E7C41C9722EE095E00D51D84 /* PHMessageTableViewCell.swift in Sources */,
+				E7ABC8D722FAF80B006EB335 /* PHHoleSearchResultViewController.swift in Sources */,
+				E7CC4E8C2316556A007D15D9 /* PHMainStatusView.swift in Sources */,
+				E74C6E7D2344766700A7B783 /* PHBaseColorPicker.swift in Sources */,
+				E7EA01FA231B7C7D0024CCE3 /* Alamofire+Extension.swift in Sources */,
+				E79B10FE2301B1F200513AD5 /* PHV2LoginGetMobile.swift in Sources */,
+				E7297C3222F7014A006AB124 /* PHSettingSingleRowTableViewCell.swift in Sources */,
+				E79B10D822FFBF0200513AD5 /* PHSettingScoreViewController.swift in Sources */,
+				E74978EE2323972D00C33056 /* PHCTCalendarClassListTableViewCell.swift in Sources */,
+				E7297C2222F6B48F006AB124 /* PHTheme.swift in Sources */,
+				E7EA021B231BB5EA0024CCE3 /* PHIPGWMainButtonGroupView.swift in Sources */,
+				E7CC4E8A23164FD3007D15D9 /* PHMainUserView.swift in Sources */,
+				E79B109822FDD7C000513AD5 /* UIViewController+Extension.swift in Sources */,
+				E77730602305717F005F21F2 /* PHBackendAPI+PKUHole.swift in Sources */,
+				E79B10FB2301A1A600513AD5 /* PHV2BaseGetTimestamp.swift in Sources */,
+				E7A19CA422F040AE00BEAD37 /* _PHSettingThemeViewController.swift in Sources */,
+				E74C6E7323433F1600A7B783 /* _PHColorPickerRGBColorEditorBarView.swift in Sources */,
+				E7F24D9A22EED0E200A2329E /* PHHolePost.swift in Sources */,
+				E7A081C822F2B3910032462E /* PHScoreSummaryTableViewCell.swift in Sources */,
+				E7EA02342320DE730024CCE3 /* SwiftDate+Extension.swift in Sources */,
+				E74C6E772343863100A7B783 /* PHColorPickerBaseCircleCollectionViewCell.swift in Sources */,
+				E7297C2022F6B37D006AB124 /* SwiftyUserDefaults+Extension.swift in Sources */,
+				E777304F2304157E005F21F2 /* PHV2PersonScore.swift in Sources */,
+				E7297C0E22F5050A006AB124 /* PHScoreDetailViewController.swift in Sources */,
+				E7EA01EF231A9ACD0024CCE3 /* PHKeychain.swift in Sources */,
+				E7554F79230E72FD00B68D13 /* PHV2Login.swift in Sources */,
+				E7A19CA022F0378E00BEAD37 /* Notification.Name+Extension.swift in Sources */,
+				E7F24D9822EECF8800A2329E /* PHHolePostTableViewCell.swift in Sources */,
+				E7554F5C230BF75D00B68D13 /* PHCTCustomCoursesEditingEditClassTableViewCell.swift in Sources */,
+				E7554F8623113D1100B68D13 /* NSTextCheckingResult+Extension.swift in Sources */,
+				E7554F6C230E35BB00B68D13 /* _PHCTCourseListSubClassesTableViewCell.swift in Sources */,
+				E7CC4E8E231655DD007D15D9 /* PHMainStatusCellView.swift in Sources */,
+				E74978F22323B4A400C33056 /* PHEventManager.swift in Sources */,
+				E7554F77230E71C800B68D13 /* PHV2CloudCourseList.swift in Sources */,
+				E7EA022A231C11B00024CCE3 /* PHIPGWGetConnections.swift in Sources */,
+				E7554F68230E314500B68D13 /* PHCTManageCloudViewController.swift in Sources */,
+				E7554F51230BCABB00B68D13 /* PHCTCustomCoursesViewController.swift in Sources */,
+				E7EA0220231BD10E0024CCE3 /* PHIPGWConnection.swift in Sources */,
+				E7CC4E9223166595007D15D9 /* PHMainModuleCollectionViewCell.swift in Sources */,
+				E74978EC2323937800C33056 /* PHCTCalendarBaseClassListViewController.swift in Sources */,
+				E7EA01CF2316CA2A0024CCE3 /* PHV2PersonUnreadEmail.swift in Sources */,
+				E7A19CA822F04A4600BEAD37 /* PHThemeManager.swift in Sources */,
+				E7554F72230E477500B68D13 /* PHCTManageCloudTableViewCell.swift in Sources */,
+				E74C6E6B234233EA00A7B783 /* PHMultiColorPicker.swift in Sources */,
+				E7297C0022F4DED0006AB124 /* PHCTCourseColumnsScrollView.swift in Sources */,
+				E78A03F022F9072F005B4636 /* PHBaseViewController.swift in Sources */,
+				E7560CC122ED3875002D2FF5 /* AppDelegate.swift in Sources */,
+				E7ABC8DA22FB1637006EB335 /* PHHoleWritePostViewController.swift in Sources */,
+				E7A081B222F18C370032462E /* PHScore.swift in Sources */,
+				E77730692306D8CF005F21F2 /* ObjectMapper+Extension.swift in Sources */,
+				E77730632306C61D005F21F2 /* PHV2PKUHolePostList.swift in Sources */,
+				E77730462303B6E6005F21F2 /* PHUserButtonRowTableViewCell.swift in Sources */,
+				E7554F64230C249A00B68D13 /* PHCTCustomCoursesEditingClassTableViewHeaderView.swift in Sources */,
+				E7A081AA22F164CA0032462E /* UIEdgeInsets+Extension.swift in Sources */,
+				E7297C1A22F56257006AB124 /* PHCTClassCellView.swift in Sources */,
+				E7EA01ED231A95430024CCE3 /* PHUserIAAAAccountViewController.swift in Sources */,
+				E7A081AE22F18B470032462E /* PHScoreMainViewController.swift in Sources */,
+				E7EA01DB231798FA0024CCE3 /* PHUserLoginFormView.swift in Sources */,
+				E7554F81230EBA7900B68D13 /* UIButton+Extension.swift in Sources */,
+				E7EA022E231E44840024CCE3 /* UIBarButtonItem+Extension.swift in Sources */,
+				E74C6E6923422EB700A7B783 /* PHTestColorPickerViewController.swift in Sources */,
+				E7EA01FC231B7CAD0024CCE3 /* PHAPIUtil.swift in Sources */,
+				E777306B2306E165005F21F2 /* Array+Extension.swift in Sources */,
+				E79B10DA22FFBF5C00513AD5 /* PHSettingPKUHoleViewController.swift in Sources */,
+				E79B11122303004F00513AD5 /* PHUserDetailViewController.swift in Sources */,
+				E7554F6E230E364500B68D13 /* _PHCTCourseListSubClassesTableView.swift in Sources */,
+				E79B11042301BA1400513AD5 /* _PHUserLoginCaptchaPopupViewController.swift in Sources */,
+				E7EA01D12316DB030024CCE3 /* PHV2PersonBalance.swift in Sources */,
+				E777305E2305652D005F21F2 /* PHRefreshFooter.swift in Sources */,
+				E7ABC8D322FAC187006EB335 /* PHTestMainViewController.swift in Sources */,
+				E777307223084031005F21F2 /* PHHoleTranslucentWritingBaseViewController.swift in Sources */,
+				E7EA0201231B7F530024CCE3 /* PHIPGWBaseResponse.swift in Sources */,
+				E7297C1022F53CFF006AB124 /* PHCTSideColumnView.swift in Sources */,
+				E7F24D9C22EED0EF00A2329E /* PHHoleComment.swift in Sources */,
+				E7297C2C22F700C4006AB124 /* _PHSettingUserRowTableViewCell.swift in Sources */,
+				E79B1106230280C000513AD5 /* PHV2LoginSendValidcode.swift in Sources */,
+				E77730782309A00D005F21F2 /* UINavigationController+Extension.swift in Sources */,
+				E74C6EBF23468ADC00A7B783 /* PHScaledHeightImageView.swift in Sources */,
+				E7A081B022F18C2A0032462E /* PHScoreTableViewCell.swift in Sources */,
+				E79B109222FD947A00513AD5 /* CGSize+Extension.swift in Sources */,
+				E79B10C422FE9E0E00513AD5 /* PHBackendError.swift in Sources */,
+				E7ABC8CC22FA9EAF006EB335 /* PHTestPopMenuViewController.swift in Sources */,
+				E7773044230318F9005F21F2 /* PHUserDetailInfoRowTableViewCell.swift in Sources */,
+				E74978E82323922D00C33056 /* PHCTCalendarExportViewController.swift in Sources */,
+				E7EA01E7231920A20024CCE3 /* PHSettingDeveloperOptionsViewController.swift in Sources */,
+				E7A081BF22F1F6B80032462E /* UITableView+Extension.swift in Sources */,
+				E74C6EBC234689FD00A7B783 /* PHClickableTextView.swift in Sources */,
+				E7297C1422F53D71006AB124 /* PHCTSideGridView.swift in Sources */,
+				E78A03E822F8CE66005B4636 /* String+Extension.swift in Sources */,
+				E7ABC8CE22FAB8BA006EB335 /* PHHoleAttentionViewController.swift in Sources */,
+				E7EA01F8231B722D0024CCE3 /* PHURL.swift in Sources */,
+				E79B108922FCFAB300513AD5 /* PHMyPKUCollectionViewCell.swift in Sources */,
+				E777305623046B3A005F21F2 /* PHUtil.swift in Sources */,
+				E7C41C7822ED512800D51D84 /* _PHMyPKUMainViewController.swift in Sources */,
+				E74978EA2323924E00C33056 /* PHCTCalendarManageViewController.swift in Sources */,
+				E79B10D422FFBD7A00513AD5 /* PHSettingAboutUsViewController.swift in Sources */,
+				E79B11082302917900513AD5 /* PHV2ResponseStatus.swift in Sources */,
+				E7EA0232231FEAEC0024CCE3 /* PHV2BaseGetSemesterBeginning.swift in Sources */,
+				E74978FB232D259300C33056 /* PHV2MessageList.swift in Sources */,
+				E7A081C322F2858A0032462E /* Double+Extension.swift in Sources */,
+				E74978F7232D172A00C33056 /* PHBackendAPI+Message.swift in Sources */,
+				E7C41C9922EE0E0300D51D84 /* PHMessageDetailViewController.swift in Sources */,
+				E7554F4F230BAFF400B68D13 /* SwifterSwift-Shared-Color+Extension.swift in Sources */,
+				E77730482303BB45005F21F2 /* PHBackendAPI+Person.swift in Sources */,
+				E7297C4822F7E7A2006AB124 /* UIImageView+Extension.swift in Sources */,
+				E7EA01EB23194DE70024CCE3 /* UIScrollView+Extension.swift in Sources */,
+				E7297C2822F6E401006AB124 /* PHScoreTableViewFooterView.swift in Sources */,
+				E7C41C6C22ED471F00D51D84 /* PHSettingMainViewController.swift in Sources */,
+				E79B10E023012EE000513AD5 /* PHBackendAPI+Login.swift in Sources */,
+				E7A081A622F136CD0032462E /* Int+Extension.swift in Sources */,
+				E7A081B422F18C6A0032462E /* PHCourse.swift in Sources */,
+				E7A19CBB22F113CD00BEAD37 /* UIImage+Extension.swift in Sources */,
+				E7A19CC122F11B5000BEAD37 /* PHGlobal.swift in Sources */,
+				E7C41C8622ED78B700D51D84 /* R.generated.swift in Sources */,
+				E7EA01D8231793E50024CCE3 /* PHUserLoginViewController.swift in Sources */,
+				E7C41C9322EDE5FC00D51D84 /* PHUser.swift in Sources */,
+				E7EA0211231B97B50024CCE3 /* PHIPGWAPI+Router.swift in Sources */,
+				E79B10DC22FFBFFE00513AD5 /* PHSettingMessageViewController.swift in Sources */,
+				E7EA0213231B9DA10024CCE3 /* PHIPGWSuccResponse.swift in Sources */,
+				E7297C3022F70123006AB124 /* PHSettingDualRowTableViewCell.swift in Sources */,
+				E7CC4E8623164F34007D15D9 /* PHMainViewController.swift in Sources */,
+				E7EA020D231B93AD0024CCE3 /* PHIPGWError.swift in Sources */,
+				E7297C2622F6E3E3006AB124 /* PHScoreTableViewHeaderView.swift in Sources */,
+				E7ABC8DC22FC07A3006EB335 /* PHHoleWriteCommentViewController.swift in Sources */,
+				E74978E32322B3B600C33056 /* PHSettingBaseSubSettingViewController.swift in Sources */,
+				E7ABC8D522FACB05006EB335 /* PopMenu+Extension.swift in Sources */,
+				E7EA0230231F54F70024CCE3 /* PHLabeledStepperView.swift in Sources */,
+				E74C6E632340536F00A7B783 /* PHCourseTableDye.swift in Sources */,
+				E7554F60230C137E00B68D13 /* PHCTCustomCoursesAddCourseViewController.swift in Sources */,
+				E7A081BD22F1F5860032462E /* Collection+Extension.swift in Sources */,
+				E7554F5A230BF4FB00B68D13 /* PHCTCustomCoursesEditingClassTableViewCell.swift in Sources */,
+				E7554F56230BCFE700B68D13 /* PHCTCustomCoursesTableViewCell.swift in Sources */,
+				E7EA020F231B94260024CCE3 /* PHIPGWAPI+Alamofire+Extension.swift in Sources */,
+				E79B109622FDA2EB00513AD5 /* _PHWebBrowserViewController.swift in Sources */,
+				E79B110A230296DD00513AD5 /* UITextField+Extension.swift in Sources */,
+				E7EA01E9231940330024CCE3 /* TimeInterval+Extension.swift in Sources */,
+				E74978F5232CA8CC00C33056 /* EKEvent+Extension.swift in Sources */,
+				E7EA01DF23180A130024CCE3 /* PHHoleWelcomeViewController.swift in Sources */,
+				E78A03EC22F8FF71005B4636 /* _PHTabBarController.swift in Sources */,
+				E77730672306C900005F21F2 /* PHTestPKUHoleViewController.swift in Sources */,
+				E7EA0216231BA23F0024CCE3 /* PHIPGWMainViewController.swift in Sources */,
+				E7EA01F1231AA70F0024CCE3 /* PHUserIAAAAcountRowTableViewCell.swift in Sources */,
+				E7554F74230E49EB00B68D13 /* PHBackendAPI+Cloud.swift in Sources */,
+				E7EA0224231BD3860024CCE3 /* PHIPGWConnectionTableViewCell.swift in Sources */,
+				E7C41C9522EE08B000D51D84 /* PHMessage.swift in Sources */,
+				E7ABC8C722FA6EA0006EB335 /* PHTestImagePickerViewController.swift in Sources */,
+				E7297C4622F7DD9F006AB124 /* Bundle+Extension.swift in Sources */,
+				E777304D2303E373005F21F2 /* PHCTWeekdayHeaderRowView.swift in Sources */,
+				E77730652306C7F6005F21F2 /* PHV2PKUHolePostOne.swift in Sources */,
+				E7EA01DD2317D9850024CCE3 /* PHUserLoginCaptchaPopupViewController.swift in Sources */,
+				E7554F5E230C0D3C00B68D13 /* PHCTCustomCoursesEditingAddClassTableViewCell.swift in Sources */,
+				E7A19CAA22F056D700BEAD37 /* PHSettingThemeTableViewCell.swift in Sources */,
+				E7297C3422F797A9006AB124 /* UIStackView+Extension.swift in Sources */,
+				E7A081A822F1490B0032462E /* UITextView+Extension.swift in Sources */,
+				E7C41C7622ED510400D51D84 /* PHCTMainViewController.swift in Sources */,
+				E79B10DE2301047000513AD5 /* _PHUserLoginViewController.swift in Sources */,
+				E777304B2303C218005F21F2 /* PHV2PersonCourseTable.swift in Sources */,
+				E7EA01F4231B71BD0024CCE3 /* PHIPGWAPI.swift in Sources */,
+				E7EA0219231BB3A70024CCE3 /* PHIPGWMainStatusView.swift in Sources */,
+				E7297C1822F53DB6006AB124 /* PHCTWeekdayHeaderGridView.swift in Sources */,
+				E79B10BD22FE9AE700513AD5 /* PHBackendAPI.swift in Sources */,
+				E7A19CB922F0B0D000BEAD37 /* UIView+Extension.swift in Sources */,
+				E777305C230551CD005F21F2 /* _PHRefreshHeader.swift in Sources */,
+				E7CC4E962316A41F007D15D9 /* PHMainModuleView.swift in Sources */,
+				E74978FD232D2F9F00C33056 /* PHMessageDetailView.swift in Sources */,
+				E777307023082EB3005F21F2 /* PHV2NullDetail.swift in Sources */,
+				E74C6E6D234234FE00A7B783 /* PHColorPickerColorCircleCollectionViewCell.swift in Sources */,
+				E7DE037F2346CF0C00E74605 /* PHIPGWErrorResponse.swift in Sources */,
+				E7A081C522F287760032462E /* PHScoreDetailTableViewCell.swift in Sources */,
+				E7A19CA622F0414700BEAD37 /* UIColor+Extension.swift in Sources */,
+				E79B11102302F8E000513AD5 /* _PHUserDetailLogoutRowTableViewCell.swift in Sources */,
+				E7EA01E12318E5D70024CCE3 /* PHHoleHiddenTableViewCell.swift in Sources */,
+				E79B10CA22FEBA5200513AD5 /* PHBackendAPI+Alamofire+Extension.swift in Sources */,
+				E7554F70230E3E5A00B68D13 /* _PHCTCourseListSubTableViewCell.swift in Sources */,
+				E7C41C7422ED504B00D51D84 /* PHMessageMainViewController.swift in Sources */,
+				E7773074230845D2005F21F2 /* PHHoleWriteReportReasonViewController.swift in Sources */,
+				E7EA0222231BD3780024CCE3 /* PHIPGWStatusTableViewCell.swift in Sources */,
+				E7F24D9E22EED35C00A2329E /* PHHoleCommentTableViewCell.swift in Sources */,
+				E7ABC8D122FABAA3006EB335 /* PHHolePostListBaseViewController.swift in Sources */,
+				E7297C1622F53D9D006AB124 /* PHCTCourseGridView.swift in Sources */,
+				E7554F6A230E320D00B68D13 /* PHCTCourseListBaseTableViewCell.swift in Sources */,
+				E74C6E65234080E700A7B783 /* Dictionary+Extension.swift in Sources */,
+				E7F24DA022EED3BD00A2329E /* PHHoleDetailViewController.swift in Sources */,
+				E7EA0205231B90CC0024CCE3 /* PHIPGWOpen.swift in Sources */,
+				E7297C3622F79BAD006AB124 /* PHHoleBaseTableViewCell.swift in Sources */,
+				E7EA022C231D16C70024CCE3 /* PHPostMemo.swift in Sources */,
+				E74C6E6F2343369C00A7B783 /* PHColorPickerButtonCollectionViewCell.swift in Sources */,
+				E7554F7D230E94F900B68D13 /* PHBackendAPI+Base.swift in Sources */,
+				E79B10D622FFBE5F00513AD5 /* PHSettingCourseTableViewController.swift in Sources */,
+				E79B11022301B4F400513AD5 /* PHV2LoginCaptcha.swift in Sources */,
+				E7C41C7222ED490B00D51D84 /* PHHoleMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7560CCD22ED3876002D2FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/PKUHelper-4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7560CCE22ED3876002D2FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/PKUHelper-4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7560CD022ED3876002D2FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AE1BBD1EBBC3648883A1CF /* Pods-PKUHelper-4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DRCLX38B2;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.pku.pkuhelper.pku-helper-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7560CD122ED3876002D2FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6BC411F6D4E60144F17A8C5 /* Pods-PKUHelper-4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DRCLX38B2;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.pku.pkuhelper.pku-helper-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7560CB822ED3875002D2FF5 /* Build configuration list for PBXProject "PKUHelper-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7560CCD22ED3876002D2FF5 /* Debug */,
+				E7560CCE22ED3876002D2FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7560CCF22ED3876002D2FF5 /* Build configuration list for PBXNativeTarget "PKUHelper-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7560CD022ED3876002D2FF5 /* Debug */,
+				E7560CD122ED3876002D2FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7560CB522ED3875002D2FF5 /* Project object */;
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "name": "太极拳",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 2
+            },
+            {
+                "weekday": 2,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 2
+            },
+            {
+                "weekday": 3,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 2
+            },
+            {
+                "weekday": 4,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 2
+            },
+            {
+                "weekday": 5,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 2
+            },
+            {
+                "weekday": 6,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 2
+            },
+            {
+                "weekday": 7,
+                "start": 3,
+                "end": 4,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 2
+            }
+        ]
+    }
+]

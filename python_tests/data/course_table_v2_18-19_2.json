@@ -1,0 +1,155 @@
+[
+    {
+        "name": "结构化学",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 3,
+                "end": 4,
+                "classroom": "理教303",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教303",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "物理化学（一）",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 3,
+                "end": 4,
+                "classroom": "二教109",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 4,
+                "start": 1,
+                "end": 2,
+                "classroom": "二教109",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "程序设计实习",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 3,
+                "end": 4,
+                "classroom": "二教109",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 7,
+                "end": 8,
+                "classroom": "二教109",
+                "week": "单周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "排球",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 5,
+                "end": 6,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "英语听说",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 5,
+                "end": 6,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "毛泽东思想和中国特色社会主义理论体系概论",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 7,
+                "end": 9,
+                "classroom": "理教206",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "大国崛起",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 7,
+                "end": 8,
+                "classroom": "理教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 15
+            }
+        ]
+    },
+    {
+        "name": "结构化学讨论班",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 10,
+                "end": 12,
+                "classroom": "理教210",
+                "week": "单周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "逻辑导论",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 10,
+                "end": 12,
+                "classroom": "二教109",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 15
+            }
+        ]
+    }
+]

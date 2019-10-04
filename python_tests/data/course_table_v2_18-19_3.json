@@ -1,0 +1,25 @@
+[
+    {
+        "name": "马克思主义基本原理概论",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 1,
+                "end": 4,
+                "classroom": "二教405",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 4
+            },
+            {
+                "weekday": 2,
+                "start": 1,
+                "end": 4,
+                "classroom": "二教405",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 4
+            }
+        ]
+    }
+]

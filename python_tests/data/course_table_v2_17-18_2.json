@@ -1,0 +1,160 @@
+[
+    {
+        "name": "高等数学 (B) (二)",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 1,
+                "end": 2,
+                "classroom": "二教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 4,
+                "start": 3,
+                "end": 4,
+                "classroom": "二教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通生物学实验",
+        "classes": [
+            {
+                "weekday": 6,
+                "start": 1,
+                "end": 8,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 2,
+                "end_week": 8
+            }
+        ]
+    },
+    {
+        "name": "有机化学实验 (Ⅰ)",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 3,
+                "end": 9,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通物理 (I)",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 3,
+                "end": 4,
+                "classroom": "理教303",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 5,
+                "end": 6,
+                "classroom": "理教303",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "军事理论",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 5,
+                "end": 6,
+                "classroom": "理教207",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "英语阅读",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 5,
+                "end": 6,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "有机化学 (一)",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 10,
+                "end": 12,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通物理习题课",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 10,
+                "end": 11,
+                "classroom": "二教404",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "中国近现代史纲要",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教406",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "程序设计思维",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 10,
+                "end": 12,
+                "classroom": "三教205",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    }
+]

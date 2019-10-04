@@ -1,0 +1,39 @@
+//
+//  UINavigationController+Extension.swift
+//  PKUHelper-4
+//
+//  Created by zxh on 2019/8/18.
+//  Copyright © 2019 PKUHelper. All rights reserved.
+//
+
+import UIKit
+
+// MARK: - Methods
+public extension UINavigationController {
+
+    /// SwifterSwift: Pop ViewController with completion handler.
+    ///
+    /// - Parameters:
+    ///   - animated: Set this value to true to animate the transition (default is true).
+    ///   - completion: optional completion handler (default is nil).
+    func popViewController(animated: Bool = true, _ completion: (() -> Void)? = nil) {
+        // https://github.com/cotkjaer/UserInterface/blob/master/UserInterface/UIViewController.swift
+        CATransaction.begin()
+        CATransaction.setCompletionBlock(completion)
+        popViewController(animated: animated)
+        CATransaction.commit()
+    }
+
+    /// SwifterSwift: Push ViewController with completion handler.
+    ///
+    /// - Parameters:
+    ///   - viewController: viewController to push.
+    ///   - completion: optional completion handler (default is nil).
+    func pushViewController(_ viewController: UIViewController, completion: (() -> Void)? = nil) {
+        // https://github.com/cotkjaer/UserInterface/blob/master/UserInterface/UIViewController.swift
+        CATransaction.begin()
+        CATransaction.setCompletionBlock(completion)
+        pushViewController(viewController, animated: true)
+        CATransaction.commit()
+    }
+}

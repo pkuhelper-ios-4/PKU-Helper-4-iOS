@@ -1,0 +1,206 @@
+[
+    {
+        "name": "有机化学 (二)",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教102",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 8
+            },
+            {
+                "weekday": 5,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教102",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 8
+            }
+        ]
+    },
+    {
+        "name": "中级有机化学",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教102",
+                "week": "每周",
+                "start_week": 9,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教102",
+                "week": "每周",
+                "start_week": 9,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通物理 (II)",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 1,
+                "end": 2,
+                "classroom": "理教107",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 3,
+                "start": 3,
+                "end": 4,
+                "classroom": "理教107",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "线性代数 (B)",
+        "classes": [
+            {
+                "weekday": 2,
+                "start": 1,
+                "end": 2,
+                "classroom": "二教407",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            },
+            {
+                "weekday": 5,
+                "start": 3,
+                "end": 4,
+                "classroom": "二教407",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "有机化学实验 (Ⅰ+Ⅱ)",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 3,
+                "end": 9,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 4
+            }
+        ]
+    },
+    {
+        "name": "中级有机化学实验",
+        "classes": [
+            {
+                "weekday": 1,
+                "start": 3,
+                "end": 9,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 5,
+                "end_week": 12
+            }
+        ]
+    },
+    {
+        "name": "基础物理实验",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 5,
+                "end": 8,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "经济学原理",
+        "classes": [
+            {
+                "weekday": 6,
+                "start": 7,
+                "end": 9,
+                "classroom": "理教208",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "篮球",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 7,
+                "end": 8,
+                "classroom": "",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "普通物理习题课",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教102",
+                "week": "单周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "有机化学习题课",
+        "classes": [
+            {
+                "weekday": 4,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教202",
+                "week": "双周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    },
+    {
+        "name": "线性代数 (B)习题",
+        "classes": [
+            {
+                "weekday": 3,
+                "start": 10,
+                "end": 11,
+                "classroom": "理教301",
+                "week": "每周",
+                "start_week": 1,
+                "end_week": 16
+            }
+        ]
+    }
+]
